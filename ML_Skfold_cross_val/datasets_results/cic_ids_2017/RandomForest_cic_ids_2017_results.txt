@@ -1,0 +1,20 @@
+
+======== Evaluation Results ========
+Model name: RandomForest
+Dataset name: cic_ids_2017
+
+Accuracy results: [0.9983, 0.9983, 0.9984, 0.9984, 0.9985, 0.9982, 0.9988, 0.9986, 0.9981, 0.9983]
+Average Accuracy: 0.9984
+Precision results: [0.9983, 0.9983, 0.9984, 0.9984, 0.9985, 0.9982, 0.9988, 0.9986, 0.9981, 0.9983]
+Average Precision: 0.9984
+Recall results: [0.9983, 0.9983, 0.9984, 0.9984, 0.9985, 0.9982, 0.9988, 0.9986, 0.9981, 0.9983]
+Average Recall: 0.9984
+F1 Score results: [0.9983, 0.9983, 0.9984, 0.9984, 0.9985, 0.9982, 0.9988, 0.9986, 0.9981, 0.9983]
+Average F1 Score: 0.9984
+ROC AUC results: [np.float64(1.0), np.float64(1.0), np.float64(1.0), np.float64(1.0), np.float64(1.0), np.float64(1.0), np.float64(1.0), np.float64(1.0), np.float64(0.9999), np.float64(1.0)]
+Average ROC AUC: 1.0000
+Average Training Time per Fold: 73.2559 seconds
+Average Testing Time per Fold: 0.1716 seconds
+Total CO₂ emissions: 0.000776 kg
+
+========================================================

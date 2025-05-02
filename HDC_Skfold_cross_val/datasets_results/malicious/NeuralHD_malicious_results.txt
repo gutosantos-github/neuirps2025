@@ -1,0 +1,22 @@
+
+======== Evaluation Results ========
+HDC Model name: NeuralHD
+Dataset name: malicious
+Device: cpu
+Min Value: -7.24, Max Value: 110.68
+
+Accuracy results: [0.8868, 0.9556, 0.8913, 0.9542, 0.9535, 0.9533, 0.9566, 0.9554, 0.8827, 0.8962]
+Average Accuracy: 0.9286
+Precision results: [0.991, 0.9083, 0.9918, 0.9062, 0.9045, 0.9047, 0.9108, 0.909, 0.9897, 0.9912]
+Average Precision: 0.9407
+Recall results: [0.7402, 0.996, 0.7502, 0.9951, 0.9956, 0.9948, 0.9953, 0.9946, 0.7313, 0.7623]
+Average Recall: 0.8955
+F1 Score results: [0.8474, 0.9501, 0.8543, 0.9486, 0.9479, 0.9476, 0.9512, 0.9499, 0.8411, 0.8618]
+Average F1 Score: 0.9100
+ROC AUC results: [0.8676, 0.9609, 0.8728, 0.9596, 0.959, 0.9587, 0.9617, 0.9606, 0.8628, 0.8786]
+Average ROC AUC: 0.9242
+Average Training Time per Fold: 145.6954 seconds
+Average Testing Time per Fold: 0.2949 seconds
+Total CO₂ emissions: 0.002296 kg
+
+========================================================

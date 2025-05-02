@@ -1,0 +1,22 @@
+
+======== Evaluation Results ========
+HDC Model name: NeuralHD
+Dataset name: nsl_kdd
+Device: cpu
+Min Value: -2.60, Max Value: 325.75
+
+Accuracy results: [0.974, 0.9745, 0.974, 0.9755, 0.9759, 0.9756, 0.9735, 0.9729, 0.9708, 0.9702]
+Average Accuracy: 0.9737
+Precision results: [0.9816, 0.9698, 0.9743, 0.9732, 0.98, 0.9739, 0.9707, 0.968, 0.9697, 0.9759]
+Average Precision: 0.9737
+Recall results: [0.9621, 0.9756, 0.9698, 0.9742, 0.9681, 0.9737, 0.9724, 0.9739, 0.9674, 0.9597]
+Average Recall: 0.9697
+F1 Score results: [0.9717, 0.9727, 0.972, 0.9737, 0.974, 0.9738, 0.9715, 0.9709, 0.9686, 0.9678]
+Average F1 Score: 0.9717
+ROC AUC results: [0.9732, 0.9746, 0.9738, 0.9755, 0.9754, 0.9755, 0.9734, 0.9729, 0.9706, 0.9696]
+Average ROC AUC: 0.9735
+Average Training Time per Fold: 91.4955 seconds
+Average Testing Time per Fold: 0.2546 seconds
+Total CO₂ emissions: 0.000035 kg
+
+========================================================

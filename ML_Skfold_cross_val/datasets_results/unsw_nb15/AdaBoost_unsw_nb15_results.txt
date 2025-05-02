@@ -1,0 +1,20 @@
+
+======== Evaluation Results ========
+Model name: AdaBoost
+Dataset name: unsw_nb15
+
+Accuracy results: [0.8587, 0.8574, 0.8576, 0.858, 0.8549, 0.8592, 0.8578, 0.8572, 0.8554, 0.8598]
+Average Accuracy: 0.8576
+Precision results: [0.8649, 0.8634, 0.864, 0.8643, 0.8614, 0.8656, 0.8643, 0.8628, 0.8616, 0.8666]
+Average Precision: 0.8639
+Recall results: [0.8587, 0.8574, 0.8576, 0.858, 0.8549, 0.8592, 0.8578, 0.8572, 0.8554, 0.8598]
+Average Recall: 0.8576
+F1 Score results: [0.8586, 0.8573, 0.8576, 0.8579, 0.8549, 0.8592, 0.8577, 0.8572, 0.8553, 0.8597]
+Average F1 Score: 0.8575
+ROC AUC results: [np.float64(0.9426), np.float64(0.9399), np.float64(0.9396), np.float64(0.9413), np.float64(0.9405), np.float64(0.9413), np.float64(0.9414), np.float64(0.9415), np.float64(0.9393), np.float64(0.9417)]
+Average ROC AUC: 0.9409
+Average Training Time per Fold: 12.6695 seconds
+Average Testing Time per Fold: 0.0432 seconds
+Total CO₂ emissions: 0.000135 kg
+
+========================================================

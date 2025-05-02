@@ -1,0 +1,20 @@
+
+======== Evaluation Results ========
+Model name: GaussianNB
+Dataset name: malicious
+
+Accuracy results: [0.7935, 0.7961, 0.7961, 0.7965, 0.7973, 0.7962, 0.7977, 0.7984, 0.7894, 0.7946]
+Average Accuracy: 0.7956
+Precision results: [0.8473, 0.8484, 0.8485, 0.849, 0.8487, 0.8487, 0.8492, 0.8499, 0.8443, 0.8476]
+Average Precision: 0.8482
+Recall results: [0.7935, 0.7961, 0.7961, 0.7965, 0.7973, 0.7962, 0.7977, 0.7984, 0.7894, 0.7946]
+Average Recall: 0.7956
+F1 Score results: [0.7762, 0.7794, 0.7794, 0.7798, 0.781, 0.7795, 0.7813, 0.7822, 0.7713, 0.7776]
+Average F1 Score: 0.7788
+ROC AUC results: [np.float64(0.9869), np.float64(0.9872), np.float64(0.9877), np.float64(0.9875), np.float64(0.9874), np.float64(0.9865), np.float64(0.9878), np.float64(0.9877), np.float64(0.986), np.float64(0.9866)]
+Average ROC AUC: 0.9871
+Average Training Time per Fold: 0.0301 seconds
+Average Testing Time per Fold: 0.0024 seconds
+Total CO₂ emissions: 0.000001 kg
+
+========================================================

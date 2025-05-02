@@ -1,0 +1,22 @@
+
+======== Evaluation Results ========
+HDC Model name: DistHD
+Dataset name: unsw_nb15
+Device: cpu
+Min Value: -4.51, Max Value: 102.50
+
+Accuracy results: [0.7588, 0.7429, 0.7765, 0.7342, 0.7735, 0.7218, 0.7291, 0.7731, 0.7726, 0.7912]
+Average Accuracy: 0.7574
+Precision results: [0.8022, 0.7121, 0.7269, 0.7057, 0.7762, 0.7006, 0.6953, 0.7275, 0.772, 0.7826]
+Average Precision: 0.7401
+Recall results: [0.6509, 0.7667, 0.8453, 0.7519, 0.7326, 0.7199, 0.761, 0.8323, 0.7373, 0.7738]
+Average Recall: 0.7572
+F1 Score results: [0.7187, 0.7384, 0.7816, 0.7281, 0.7538, 0.7101, 0.7267, 0.7764, 0.7543, 0.7782]
+Average F1 Score: 0.7466
+ROC AUC results: [0.7533, 0.7441, 0.78, 0.7351, 0.7714, 0.7217, 0.7307, 0.7761, 0.7709, 0.7903]
+Average ROC AUC: 0.7574
+Average Training Time per Fold: 67.7015 seconds
+Average Testing Time per Fold: 0.2472 seconds
+Total CO₂ emissions: 0.001032 kg
+
+========================================================

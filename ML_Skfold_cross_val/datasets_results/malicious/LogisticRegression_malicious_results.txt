@@ -1,0 +1,20 @@
+
+======== Evaluation Results ========
+Model name: LogisticRegression
+Dataset name: malicious
+
+Accuracy results: [0.9505, 0.9542, 0.9536, 0.9519, 0.9526, 0.9515, 0.9546, 0.9537, 0.9513, 0.9503]
+Average Accuracy: 0.9524
+Precision results: [0.9546, 0.9579, 0.9575, 0.956, 0.9565, 0.9557, 0.9582, 0.9575, 0.9555, 0.9546]
+Average Precision: 0.9564
+Recall results: [0.9505, 0.9542, 0.9536, 0.9519, 0.9526, 0.9515, 0.9546, 0.9537, 0.9513, 0.9503]
+Average Recall: 0.9524
+F1 Score results: [0.9507, 0.9544, 0.9538, 0.9522, 0.9528, 0.9517, 0.9548, 0.9539, 0.9516, 0.9505]
+Average F1 Score: 0.9526
+ROC AUC results: [np.float64(0.987), np.float64(0.9881), np.float64(0.9882), np.float64(0.9873), np.float64(0.988), np.float64(0.9871), np.float64(0.9877), np.float64(0.9877), np.float64(0.9872), np.float64(0.9874)]
+Average ROC AUC: 0.9876
+Average Training Time per Fold: 0.6371 seconds
+Average Testing Time per Fold: 0.0013 seconds
+Total CO₂ emissions: 0.000011 kg
+
+========================================================

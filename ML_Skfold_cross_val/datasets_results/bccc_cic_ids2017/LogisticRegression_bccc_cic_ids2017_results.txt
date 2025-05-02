@@ -1,0 +1,20 @@
+
+======== Evaluation Results ========
+Model name: LogisticRegression
+Dataset name: bccc_cic_ids2017
+
+Accuracy results: [0.9264, 0.9276, 0.9271, 0.9269, 0.9273, 0.9279, 0.9262, 0.9266, 0.9272, 0.9272]
+Average Accuracy: 0.9270
+Precision results: [0.933, 0.9339, 0.9338, 0.9333, 0.9337, 0.9342, 0.9328, 0.933, 0.9334, 0.9337]
+Average Precision: 0.9335
+Recall results: [0.9264, 0.9276, 0.9271, 0.9269, 0.9273, 0.9279, 0.9262, 0.9266, 0.9272, 0.9272]
+Average Recall: 0.9270
+F1 Score results: [0.9265, 0.9278, 0.9272, 0.927, 0.9274, 0.9281, 0.9264, 0.9267, 0.9273, 0.9273]
+Average F1 Score: 0.9272
+ROC AUC results: [np.float64(0.9844), np.float64(0.9845), np.float64(0.9843), np.float64(0.9847), np.float64(0.9848), np.float64(0.9853), np.float64(0.9845), np.float64(0.984), np.float64(0.985), np.float64(0.9844)]
+Average ROC AUC: 0.9846
+Average Training Time per Fold: 11.2234 seconds
+Average Testing Time per Fold: 0.0052 seconds
+Total CO₂ emissions: 0.000172 kg
+
+========================================================

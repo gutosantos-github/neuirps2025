@@ -1,0 +1,20 @@
+
+======== Evaluation Results ========
+Model name: AdaBoost
+Dataset name: cic_ids_2017
+
+Accuracy results: [0.993, 0.9945, 0.9942, 0.9942, 0.993, 0.9934, 0.9945, 0.9946, 0.9924, 0.9948]
+Average Accuracy: 0.9939
+Precision results: [0.993, 0.9945, 0.9942, 0.9942, 0.993, 0.9934, 0.9945, 0.9946, 0.9924, 0.9948]
+Average Precision: 0.9939
+Recall results: [0.993, 0.9945, 0.9942, 0.9942, 0.993, 0.9934, 0.9945, 0.9946, 0.9924, 0.9948]
+Average Recall: 0.9939
+F1 Score results: [0.993, 0.9945, 0.9942, 0.9942, 0.993, 0.9934, 0.9945, 0.9946, 0.9924, 0.9948]
+Average F1 Score: 0.9939
+ROC AUC results: [np.float64(0.9998), np.float64(0.9998), np.float64(0.9997), np.float64(0.9998), np.float64(0.9997), np.float64(0.9998), np.float64(0.9998), np.float64(0.9998), np.float64(0.9996), np.float64(0.9998)]
+Average ROC AUC: 0.9998
+Average Training Time per Fold: 45.3175 seconds
+Average Testing Time per Fold: 0.1461 seconds
+Total CO₂ emissions: 0.000481 kg
+
+========================================================

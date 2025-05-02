@@ -1,0 +1,22 @@
+
+======== Evaluation Results ========
+HDC Model name: AdaptHD
+Dataset name: nsl_kdd
+Device: cpu
+Min Value: -2.60, Max Value: 325.75
+
+Accuracy results: [0.9581, 0.9454, 0.9467, 0.9501, 0.9485, 0.951, 0.9516, 0.9512, 0.9436, 0.9476]
+Average Accuracy: 0.9494
+Precision results: [0.9653, 0.9436, 0.951, 0.9514, 0.9587, 0.9647, 0.9498, 0.9659, 0.9472, 0.9475]
+Average Precision: 0.9545
+Recall results: [0.9439, 0.9388, 0.9337, 0.941, 0.9294, 0.9287, 0.9459, 0.9279, 0.9308, 0.9395]
+Average Recall: 0.9360
+F1 Score results: [0.9545, 0.9412, 0.9422, 0.9461, 0.9438, 0.9464, 0.9479, 0.9465, 0.9389, 0.9435]
+Average F1 Score: 0.9451
+ROC AUC results: [0.9572, 0.945, 0.9459, 0.9496, 0.9472, 0.9496, 0.9512, 0.9497, 0.9428, 0.9471]
+Average ROC AUC: 0.9485
+Average Training Time per Fold: 21.9328 seconds
+Average Testing Time per Fold: 0.5447 seconds
+Total CO₂ emissions: 0.000008 kg
+
+========================================================

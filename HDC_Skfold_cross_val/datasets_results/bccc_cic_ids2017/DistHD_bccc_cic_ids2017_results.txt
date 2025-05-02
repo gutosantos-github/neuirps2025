@@ -1,0 +1,22 @@
+
+======== Evaluation Results ========
+HDC Model name: DistHD
+Dataset name: bccc_cic_ids2017
+Device: cpu
+Min Value: -28.50, Max Value: 748.50
+
+Accuracy results: [0.9141, 0.9049, 0.8278, 0.9091, 0.9261, 0.8353, 0.9101, 0.8998, 0.9214, 0.906]
+Average Accuracy: 0.8955
+Precision results: [0.8498, 0.8675, 0.8152, 0.8735, 0.8678, 0.8687, 0.8707, 0.8295, 0.86, 0.8738]
+Average Precision: 0.8576
+Recall results: [0.9858, 0.9342, 0.8046, 0.9361, 0.9885, 0.7524, 0.9429, 0.9822, 0.9884, 0.9277]
+Average Recall: 0.9243
+F1 Score results: [0.9128, 0.8996, 0.8099, 0.9037, 0.9242, 0.8064, 0.9053, 0.8994, 0.9198, 0.9]
+Average F1 Score: 0.8881
+ROC AUC results: [0.92, 0.9073, 0.8259, 0.9113, 0.9312, 0.8286, 0.9128, 0.9065, 0.9269, 0.9078]
+Average ROC AUC: 0.8978
+Average Training Time per Fold: 382.0374 seconds
+Average Testing Time per Fold: 0.8397 seconds
+Total CO₂ emissions: 0.005789 kg
+
+========================================================

@@ -1,0 +1,490 @@
+/mnt/sdb4/threathd/.venv/bin/python /mnt/sdb4/threathd/machine_learning/Skfold_cv_ML.py
+Shape: (188692, 11)
+Shape: (125972, 16)
+Shape: (162745, 21)
+Shape: (615433, 20)
+Shape: (975199, 21)
+Shape: (2426574, 15)
+
+######## Dataset malicious ########
+
+======== MODEL: GaussianNB on DATASET: malicious ========
+[codecarbon WARNING @ 11:45:07] Multiple instances of codecarbon are allowed to run at the same time.
+Fold 1/10
+Fold 2/10
+Fold 3/10
+Fold 4/10
+Fold 5/10
+Fold 6/10
+Fold 7/10
+Fold 8/10
+Fold 9/10
+Fold 10/10
+Results saved to GaussianNB_malicious_results.txt
+
+======== MODEL: KNN on DATASET: malicious ========
+Fold 1/10
+Fold 2/10
+Fold 3/10
+Fold 4/10
+Fold 5/10
+Fold 6/10
+Fold 7/10
+Fold 8/10
+Fold 9/10
+Fold 10/10
+Results saved to KNN_malicious_results.txt
+
+======== MODEL: RandomForest on DATASET: malicious ========
+Fold 1/10
+Fold 2/10
+Fold 3/10
+Fold 4/10
+Fold 5/10
+Fold 6/10
+Fold 7/10
+Fold 8/10
+Fold 9/10
+Fold 10/10
+Results saved to RandomForest_malicious_results.txt
+
+======== MODEL: AdaBoost on DATASET: malicious ========
+Fold 1/10
+Fold 2/10
+Fold 3/10
+Fold 4/10
+Fold 5/10
+Fold 6/10
+Fold 7/10
+Fold 8/10
+Fold 9/10
+Fold 10/10
+Results saved to AdaBoost_malicious_results.txt
+
+======== MODEL: LogisticRegression on DATASET: malicious ========
+Fold 1/10
+Fold 2/10
+Fold 3/10
+Fold 4/10
+Fold 5/10
+Fold 6/10
+Fold 7/10
+Fold 8/10
+Fold 9/10
+Fold 10/10
+Results saved to LogisticRegression_malicious_results.txt
+
+======== MODEL: DecisionTree on DATASET: malicious ========
+Fold 1/10
+Fold 2/10
+Fold 3/10
+Fold 4/10
+Fold 5/10
+Fold 6/10
+Fold 7/10
+Fold 8/10
+Fold 9/10
+Fold 10/10
+Results saved to DecisionTree_malicious_results.txt
+
+######## Dataset nsl_kdd ########
+
+======== MODEL: GaussianNB on DATASET: nsl_kdd ========
+Fold 1/10
+Fold 2/10
+Fold 3/10
+Fold 4/10
+Fold 5/10
+Fold 6/10
+Fold 7/10
+Fold 8/10
+Fold 9/10
+Fold 10/10
+Results saved to GaussianNB_nsl_kdd_results.txt
+
+======== MODEL: KNN on DATASET: nsl_kdd ========
+Fold 1/10
+Fold 2/10
+Fold 3/10
+Fold 4/10
+Fold 5/10
+Fold 6/10
+Fold 7/10
+Fold 8/10
+Fold 9/10
+Fold 10/10
+Results saved to KNN_nsl_kdd_results.txt
+
+======== MODEL: RandomForest on DATASET: nsl_kdd ========
+Fold 1/10
+Fold 2/10
+Fold 3/10
+Fold 4/10
+Fold 5/10
+Fold 6/10
+Fold 7/10
+Fold 8/10
+Fold 9/10
+Fold 10/10
+Results saved to RandomForest_nsl_kdd_results.txt
+
+======== MODEL: AdaBoost on DATASET: nsl_kdd ========
+Fold 1/10
+Fold 2/10
+Fold 3/10
+Fold 4/10
+Fold 5/10
+Fold 6/10
+Fold 7/10
+Fold 8/10
+Fold 9/10
+Fold 10/10
+Results saved to AdaBoost_nsl_kdd_results.txt
+
+======== MODEL: LogisticRegression on DATASET: nsl_kdd ========
+Fold 1/10
+Fold 2/10
+Fold 3/10
+Fold 4/10
+Fold 5/10
+Fold 6/10
+Fold 7/10
+Fold 8/10
+Fold 9/10
+Fold 10/10
+Results saved to LogisticRegression_nsl_kdd_results.txt
+
+======== MODEL: DecisionTree on DATASET: nsl_kdd ========
+Fold 1/10
+Fold 2/10
+Fold 3/10
+Fold 4/10
+Fold 5/10
+Fold 6/10
+Fold 7/10
+Fold 8/10
+Fold 9/10
+Fold 10/10
+Results saved to DecisionTree_nsl_kdd_results.txt
+
+######## Dataset unsw_nb15 ########
+
+======== MODEL: GaussianNB on DATASET: unsw_nb15 ========
+Fold 1/10
+Fold 2/10
+Fold 3/10
+Fold 4/10
+Fold 5/10
+Fold 6/10
+Fold 7/10
+Fold 8/10
+Fold 9/10
+Fold 10/10
+Results saved to GaussianNB_unsw_nb15_results.txt
+
+======== MODEL: KNN on DATASET: unsw_nb15 ========
+Fold 1/10
+Fold 2/10
+Fold 3/10
+Fold 4/10
+Fold 5/10
+Fold 6/10
+Fold 7/10
+Fold 8/10
+Fold 9/10
+Fold 10/10
+Results saved to KNN_unsw_nb15_results.txt
+
+======== MODEL: RandomForest on DATASET: unsw_nb15 ========
+Fold 1/10
+Fold 2/10
+Fold 3/10
+Fold 4/10
+Fold 5/10
+Fold 6/10
+Fold 7/10
+Fold 8/10
+Fold 9/10
+Fold 10/10
+Results saved to RandomForest_unsw_nb15_results.txt
+
+======== MODEL: AdaBoost on DATASET: unsw_nb15 ========
+Fold 1/10
+Fold 2/10
+Fold 3/10
+Fold 4/10
+Fold 5/10
+Fold 6/10
+Fold 7/10
+Fold 8/10
+Fold 9/10
+Fold 10/10
+Results saved to AdaBoost_unsw_nb15_results.txt
+
+======== MODEL: LogisticRegression on DATASET: unsw_nb15 ========
+Fold 1/10
+Fold 2/10
+Fold 3/10
+Fold 4/10
+Fold 5/10
+Fold 6/10
+Fold 7/10
+Fold 8/10
+Fold 9/10
+Fold 10/10
+Results saved to LogisticRegression_unsw_nb15_results.txt
+
+======== MODEL: DecisionTree on DATASET: unsw_nb15 ========
+Fold 1/10
+Fold 2/10
+Fold 3/10
+Fold 4/10
+Fold 5/10
+Fold 6/10
+Fold 7/10
+Fold 8/10
+Fold 9/10
+Fold 10/10
+Results saved to DecisionTree_unsw_nb15_results.txt
+
+######## Dataset cic_ids_2017 ########
+
+======== MODEL: GaussianNB on DATASET: cic_ids_2017 ========
+Fold 1/10
+Fold 2/10
+Fold 3/10
+Fold 4/10
+Fold 5/10
+Fold 6/10
+Fold 7/10
+Fold 8/10
+Fold 9/10
+Fold 10/10
+Results saved to GaussianNB_cic_ids_2017_results.txt
+
+======== MODEL: KNN on DATASET: cic_ids_2017 ========
+Fold 1/10
+Fold 2/10
+Fold 3/10
+Fold 4/10
+Fold 5/10
+Fold 6/10
+Fold 7/10
+Fold 8/10
+Fold 9/10
+Fold 10/10
+Results saved to KNN_cic_ids_2017_results.txt
+
+======== MODEL: RandomForest on DATASET: cic_ids_2017 ========
+Fold 1/10
+Fold 2/10
+Fold 3/10
+Fold 4/10
+Fold 5/10
+Fold 6/10
+Fold 7/10
+Fold 8/10
+Fold 9/10
+Fold 10/10
+Results saved to RandomForest_cic_ids_2017_results.txt
+
+======== MODEL: AdaBoost on DATASET: cic_ids_2017 ========
+Fold 1/10
+Fold 2/10
+Fold 3/10
+Fold 4/10
+Fold 5/10
+Fold 6/10
+Fold 7/10
+Fold 8/10
+Fold 9/10
+Fold 10/10
+Results saved to AdaBoost_cic_ids_2017_results.txt
+
+======== MODEL: LogisticRegression on DATASET: cic_ids_2017 ========
+Fold 1/10
+Fold 2/10
+Fold 3/10
+Fold 4/10
+Fold 5/10
+Fold 6/10
+Fold 7/10
+Fold 8/10
+Fold 9/10
+Fold 10/10
+Results saved to LogisticRegression_cic_ids_2017_results.txt
+
+======== MODEL: DecisionTree on DATASET: cic_ids_2017 ========
+Fold 1/10
+Fold 2/10
+Fold 3/10
+Fold 4/10
+Fold 5/10
+Fold 6/10
+Fold 7/10
+Fold 8/10
+Fold 9/10
+Fold 10/10
+Results saved to DecisionTree_cic_ids_2017_results.txt
+
+######## Dataset bccc_cic_ids2017 ########
+
+======== MODEL: GaussianNB on DATASET: bccc_cic_ids2017 ========
+Fold 1/10
+Fold 2/10
+Fold 3/10
+Fold 4/10
+Fold 5/10
+Fold 6/10
+Fold 7/10
+Fold 8/10
+Fold 9/10
+Fold 10/10
+Results saved to GaussianNB_bccc_cic_ids2017_results.txt
+
+======== MODEL: KNN on DATASET: bccc_cic_ids2017 ========
+Fold 1/10
+Fold 2/10
+Fold 3/10
+Fold 4/10
+Fold 5/10
+Fold 6/10
+Fold 7/10
+Fold 8/10
+Fold 9/10
+Fold 10/10
+Results saved to KNN_bccc_cic_ids2017_results.txt
+
+======== MODEL: RandomForest on DATASET: bccc_cic_ids2017 ========
+Fold 1/10
+Fold 2/10
+Fold 3/10
+Fold 4/10
+Fold 5/10
+Fold 6/10
+Fold 7/10
+Fold 8/10
+Fold 9/10
+Fold 10/10
+Results saved to RandomForest_bccc_cic_ids2017_results.txt
+
+======== MODEL: AdaBoost on DATASET: bccc_cic_ids2017 ========
+Fold 1/10
+Fold 2/10
+Fold 3/10
+Fold 4/10
+Fold 5/10
+Fold 6/10
+Fold 7/10
+Fold 8/10
+Fold 9/10
+Fold 10/10
+Results saved to AdaBoost_bccc_cic_ids2017_results.txt
+
+======== MODEL: LogisticRegression on DATASET: bccc_cic_ids2017 ========
+Fold 1/10
+Fold 2/10
+Fold 3/10
+Fold 4/10
+Fold 5/10
+Fold 6/10
+Fold 7/10
+Fold 8/10
+Fold 9/10
+Fold 10/10
+Results saved to LogisticRegression_bccc_cic_ids2017_results.txt
+
+======== MODEL: DecisionTree on DATASET: bccc_cic_ids2017 ========
+Fold 1/10
+Fold 2/10
+Fold 3/10
+Fold 4/10
+Fold 5/10
+Fold 6/10
+Fold 7/10
+Fold 8/10
+Fold 9/10
+Fold 10/10
+Results saved to DecisionTree_bccc_cic_ids2017_results.txt
+
+######## Dataset botNetIot ########
+
+======== MODEL: GaussianNB on DATASET: botNetIot ========
+Fold 1/10
+Fold 2/10
+Fold 3/10
+Fold 4/10
+Fold 5/10
+Fold 6/10
+Fold 7/10
+Fold 8/10
+Fold 9/10
+Fold 10/10
+Results saved to GaussianNB_botNetIot_results.txt
+
+======== MODEL: KNN on DATASET: botNetIot ========
+Fold 1/10
+Fold 2/10
+Fold 3/10
+Fold 4/10
+Fold 5/10
+Fold 6/10
+Fold 7/10
+Fold 8/10
+Fold 9/10
+Fold 10/10
+Results saved to KNN_botNetIot_results.txt
+
+======== MODEL: RandomForest on DATASET: botNetIot ========
+Fold 1/10
+Fold 2/10
+Fold 3/10
+Fold 4/10
+Fold 5/10
+Fold 6/10
+Fold 7/10
+Fold 8/10
+Fold 9/10
+Fold 10/10
+Results saved to RandomForest_botNetIot_results.txt
+
+======== MODEL: AdaBoost on DATASET: botNetIot ========
+Fold 1/10
+Fold 2/10
+Fold 3/10
+Fold 4/10
+Fold 5/10
+Fold 6/10
+Fold 7/10
+Fold 8/10
+Fold 9/10
+Fold 10/10
+Results saved to AdaBoost_botNetIot_results.txt
+
+======== MODEL: LogisticRegression on DATASET: botNetIot ========
+Fold 1/10
+Fold 2/10
+Fold 3/10
+Fold 4/10
+Fold 5/10
+Fold 6/10
+Fold 7/10
+Fold 8/10
+Fold 9/10
+Fold 10/10
+Results saved to LogisticRegression_botNetIot_results.txt
+
+======== MODEL: DecisionTree on DATASET: botNetIot ========
+Fold 1/10
+Fold 2/10
+Fold 3/10
+Fold 4/10
+Fold 5/10
+Fold 6/10
+Fold 7/10
+Fold 8/10
+Fold 9/10
+Fold 10/10
+Results saved to DecisionTree_botNetIot_results.txt
+
+Process finished with exit code 0

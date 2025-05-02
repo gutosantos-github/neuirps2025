@@ -1,0 +1,22 @@
+
+======== Evaluation Results ========
+HDC Model name: AdaptHD
+Dataset name: bccc_cic_ids2017
+Device: cpu
+Min Value: -28.50, Max Value: 748.50
+
+Accuracy results: [0.9458, 0.9482, 0.9463, 0.948, 0.9443, 0.9512, 0.9427, 0.9469, 0.9424, 0.8502]
+Average Accuracy: 0.9366
+Precision results: [0.897, 0.9009, 0.8997, 0.9033, 0.8974, 0.9054, 0.8953, 0.8978, 0.8965, 0.9061]
+Average Precision: 0.8999
+Recall results: [0.9953, 0.996, 0.9929, 0.9922, 0.9911, 0.997, 0.9901, 0.9969, 0.9877, 0.749]
+Average Recall: 0.9688
+F1 Score results: [0.9436, 0.9461, 0.944, 0.9457, 0.9419, 0.949, 0.9403, 0.9448, 0.9399, 0.8201]
+Average F1 Score: 0.9315
+ROC AUC results: [0.9498, 0.9521, 0.9501, 0.9516, 0.9481, 0.9549, 0.9466, 0.951, 0.9461, 0.842]
+Average ROC AUC: 0.9392
+Average Training Time per Fold: 216.6497 seconds
+Average Testing Time per Fold: 4.4014 seconds
+Total CO₂ emissions: 0.003259 kg
+
+========================================================

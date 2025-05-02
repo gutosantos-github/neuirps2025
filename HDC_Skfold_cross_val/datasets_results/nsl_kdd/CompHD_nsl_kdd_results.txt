@@ -1,0 +1,22 @@
+
+======== Evaluation Results ========
+HDC Model name: CompHD
+Dataset name: nsl_kdd
+Device: cpu
+Min Value: -2.60, Max Value: 325.75
+
+Accuracy results: [0.8817, 0.8835, 0.8822, 0.8926, 0.8962, 0.882, 0.9025, 0.8796, 0.8862, 0.8769]
+Average Accuracy: 0.8863
+Precision results: [0.9251, 0.931, 0.9218, 0.9708, 0.9309, 0.9278, 0.9266, 0.9283, 0.923, 0.9291]
+Average Precision: 0.9314
+Recall results: [0.8115, 0.8097, 0.8161, 0.7931, 0.8392, 0.8093, 0.8586, 0.8033, 0.8243, 0.7962]
+Average Recall: 0.8161
+F1 Score results: [0.8646, 0.8661, 0.8657, 0.873, 0.8827, 0.8645, 0.8913, 0.8613, 0.8709, 0.8575]
+Average F1 Score: 0.8698
+ROC AUC results: [0.8772, 0.8787, 0.8779, 0.8862, 0.8925, 0.8773, 0.8997, 0.8746, 0.8822, 0.8717]
+Average ROC AUC: 0.8818
+Average Training Time per Fold: 3.7532 seconds
+Average Testing Time per Fold: 0.5627 seconds
+Total CO₂ emissions: 0.000002 kg
+
+========================================================

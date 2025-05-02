@@ -1,0 +1,20 @@
+
+======== Evaluation Results ========
+Model name: KNN
+Dataset name: malicious
+
+Accuracy results: [0.9957, 0.9969, 0.9959, 0.9964, 0.9964, 0.996, 0.9962, 0.9966, 0.9957, 0.9969]
+Average Accuracy: 0.9963
+Precision results: [0.9957, 0.9969, 0.9959, 0.9964, 0.9965, 0.996, 0.9962, 0.9966, 0.9957, 0.9969]
+Average Precision: 0.9963
+Recall results: [0.9957, 0.9969, 0.9959, 0.9964, 0.9964, 0.996, 0.9962, 0.9966, 0.9957, 0.9969]
+Average Recall: 0.9963
+F1 Score results: [0.9957, 0.9969, 0.9959, 0.9964, 0.9964, 0.996, 0.9962, 0.9966, 0.9957, 0.9969]
+Average F1 Score: 0.9963
+ROC AUC results: [np.float64(0.9976), np.float64(0.9984), np.float64(0.9976), np.float64(0.9978), np.float64(0.9974), np.float64(0.9976), np.float64(0.9974), np.float64(0.9981), np.float64(0.9972), np.float64(0.9982)]
+Average ROC AUC: 0.9977
+Average Training Time per Fold: 0.3086 seconds
+Average Testing Time per Fold: 3.5540 seconds
+Total CO₂ emissions: 0.000073 kg
+
+========================================================

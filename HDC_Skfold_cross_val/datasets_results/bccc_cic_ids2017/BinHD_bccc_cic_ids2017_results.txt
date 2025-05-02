@@ -1,0 +1,22 @@
+
+======== Evaluation Results ========
+HDC Model name: BinHD
+Dataset name: bccc_cic_ids2017
+Device: cpu
+Min Value: -28.50, Max Value: 748.50
+
+Accuracy results: [0.4078, 0.4907, 0.6272, 0.5488, 0.4426, 0.4455, 0.363, 0.3817, 0.4783, 0.619]
+Average Accuracy: 0.4805
+Precision results: [0.4058, 0.4523, 0.6, 0.5434, 0.0971, 0.4091, 0.2977, 0.2571, 0.4471, 0.5515]
+Average Precision: 0.4061
+Recall results: [0.6445, 0.5561, 0.5464, 0.0633, 0.0269, 0.4872, 0.2923, 0.1886, 0.61, 0.8788]
+Average Recall: 0.4294
+F1 Score results: [0.498, 0.4989, 0.572, 0.1134, 0.0421, 0.4447, 0.295, 0.2176, 0.516, 0.6777]
+Average F1 Score: 0.3875
+ROC AUC results: [0.4271, 0.496, 0.6206, 0.5094, 0.4088, 0.4489, 0.3573, 0.366, 0.489, 0.6401]
+Average ROC AUC: 0.4763
+Average Training Time per Fold: 11.3199 seconds
+Average Testing Time per Fold: 1.7852 seconds
+Total CO₂ emissions: 0.000208 kg
+
+========================================================

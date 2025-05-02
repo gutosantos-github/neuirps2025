@@ -1,0 +1,20 @@
+
+======== Evaluation Results ========
+Model name: DecisionTree
+Dataset name: bccc_cic_ids2017
+
+Accuracy results: [0.998, 0.9981, 0.9983, 0.998, 0.9983, 0.9981, 0.9981, 0.998, 0.9981, 0.9979]
+Average Accuracy: 0.9981
+Precision results: [0.998, 0.9981, 0.9983, 0.998, 0.9983, 0.9981, 0.9981, 0.998, 0.9981, 0.9979]
+Average Precision: 0.9981
+Recall results: [0.998, 0.9981, 0.9983, 0.998, 0.9983, 0.9981, 0.9981, 0.998, 0.9981, 0.9979]
+Average Recall: 0.9981
+F1 Score results: [0.998, 0.9981, 0.9983, 0.998, 0.9983, 0.9981, 0.9981, 0.998, 0.9981, 0.9979]
+Average F1 Score: 0.9981
+ROC AUC results: [np.float64(0.9999), np.float64(0.9998), np.float64(0.9998), np.float64(0.9998), np.float64(0.9999), np.float64(0.9999), np.float64(0.9998), np.float64(0.9997), np.float64(0.9998), np.float64(0.9998)]
+Average ROC AUC: 0.9998
+Average Training Time per Fold: 7.9973 seconds
+Average Testing Time per Fold: 0.0065 seconds
+Total CO₂ emissions: 0.000095 kg
+
+========================================================

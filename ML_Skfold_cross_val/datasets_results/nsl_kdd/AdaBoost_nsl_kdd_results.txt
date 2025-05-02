@@ -1,0 +1,20 @@
+
+======== Evaluation Results ========
+Model name: AdaBoost
+Dataset name: nsl_kdd
+
+Accuracy results: [0.9762, 0.9769, 0.9779, 0.9776, 0.9766, 0.9764, 0.9775, 0.9774, 0.9752, 0.9737]
+Average Accuracy: 0.9765
+Precision results: [0.9762, 0.9769, 0.9779, 0.9776, 0.9766, 0.9764, 0.9775, 0.9774, 0.9752, 0.9737]
+Average Precision: 0.9765
+Recall results: [0.9762, 0.9769, 0.9779, 0.9776, 0.9766, 0.9764, 0.9775, 0.9774, 0.9752, 0.9737]
+Average Recall: 0.9765
+F1 Score results: [0.9762, 0.9769, 0.9778, 0.9776, 0.9766, 0.9764, 0.9775, 0.9774, 0.9751, 0.9737]
+Average F1 Score: 0.9765
+ROC AUC results: [np.float64(0.9972), np.float64(0.9965), np.float64(0.9964), np.float64(0.9967), np.float64(0.9963), np.float64(0.9966), np.float64(0.9963), np.float64(0.997), np.float64(0.9964), np.float64(0.9968)]
+Average ROC AUC: 0.9966
+Average Training Time per Fold: 2.4002 seconds
+Average Testing Time per Fold: 0.0303 seconds
+Total CO₂ emissions: 0.000027 kg
+
+========================================================

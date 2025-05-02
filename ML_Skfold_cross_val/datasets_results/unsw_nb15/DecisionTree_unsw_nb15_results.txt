@@ -1,0 +1,20 @@
+
+======== Evaluation Results ========
+Model name: DecisionTree
+Dataset name: unsw_nb15
+
+Accuracy results: [0.8912, 0.8838, 0.8855, 0.8842, 0.8887, 0.8855, 0.8874, 0.8873, 0.8817, 0.8891]
+Average Accuracy: 0.8864
+Precision results: [0.8916, 0.8841, 0.8858, 0.8851, 0.8892, 0.8859, 0.8875, 0.8877, 0.883, 0.8899]
+Average Precision: 0.8870
+Recall results: [0.8912, 0.8838, 0.8855, 0.8842, 0.8887, 0.8855, 0.8874, 0.8873, 0.8817, 0.8891]
+Average Recall: 0.8864
+F1 Score results: [0.891, 0.8836, 0.8854, 0.884, 0.8885, 0.8853, 0.8873, 0.8871, 0.8814, 0.8889]
+Average F1 Score: 0.8863
+ROC AUC results: [np.float64(0.97), np.float64(0.9665), np.float64(0.9667), np.float64(0.9669), np.float64(0.9685), np.float64(0.9671), np.float64(0.9682), np.float64(0.9692), np.float64(0.966), np.float64(0.9681)]
+Average ROC AUC: 0.9677
+Average Training Time per Fold: 1.3278 seconds
+Average Testing Time per Fold: 0.0020 seconds
+Total CO₂ emissions: 0.000015 kg
+
+========================================================

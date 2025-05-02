@@ -1,0 +1,20 @@
+
+======== Evaluation Results ========
+Model name: GaussianNB
+Dataset name: unsw_nb15
+
+Accuracy results: [0.8068, 0.8067, 0.8058, 0.7993, 0.8042, 0.8077, 0.8088, 0.8092, 0.8063, 0.8058]
+Average Accuracy: 0.8061
+Precision results: [0.8289, 0.8298, 0.8278, 0.8216, 0.8284, 0.8328, 0.8303, 0.8318, 0.8297, 0.8284]
+Average Precision: 0.8290
+Recall results: [0.8068, 0.8067, 0.8058, 0.7993, 0.8042, 0.8077, 0.8088, 0.8092, 0.8063, 0.8058]
+Average Recall: 0.8061
+F1 Score results: [0.8051, 0.8049, 0.8041, 0.7974, 0.8023, 0.8057, 0.8072, 0.8075, 0.8045, 0.8041]
+Average F1 Score: 0.8043
+ROC AUC results: [np.float64(0.8323), np.float64(0.8291), np.float64(0.8328), np.float64(0.8269), np.float64(0.8276), np.float64(0.831), np.float64(0.8351), np.float64(0.8331), np.float64(0.8282), np.float64(0.8298)]
+Average ROC AUC: 0.8306
+Average Training Time per Fold: 0.0398 seconds
+Average Testing Time per Fold: 0.0035 seconds
+Total CO₂ emissions: 0.000001 kg
+
+========================================================

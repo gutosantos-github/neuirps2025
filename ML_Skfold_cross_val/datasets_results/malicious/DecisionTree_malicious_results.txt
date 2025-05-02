@@ -1,0 +1,20 @@
+
+======== Evaluation Results ========
+Model name: DecisionTree
+Dataset name: malicious
+
+Accuracy results: [0.9967, 0.9975, 0.9962, 0.9963, 0.9966, 0.9966, 0.9963, 0.9968, 0.9963, 0.9969]
+Average Accuracy: 0.9966
+Precision results: [0.9967, 0.9975, 0.9962, 0.9963, 0.9966, 0.9966, 0.9963, 0.9968, 0.9963, 0.9969]
+Average Precision: 0.9966
+Recall results: [0.9967, 0.9975, 0.9962, 0.9963, 0.9966, 0.9966, 0.9963, 0.9968, 0.9963, 0.9969]
+Average Recall: 0.9966
+F1 Score results: [0.9967, 0.9975, 0.9962, 0.9963, 0.9966, 0.9966, 0.9963, 0.9968, 0.9963, 0.9969]
+Average F1 Score: 0.9966
+ROC AUC results: [np.float64(0.9998), np.float64(1.0), np.float64(0.9998), np.float64(0.9995), np.float64(0.9989), np.float64(0.9997), np.float64(0.9991), np.float64(0.9999), np.float64(0.9998), np.float64(0.9995)]
+Average ROC AUC: 0.9996
+Average Training Time per Fold: 0.2756 seconds
+Average Testing Time per Fold: 0.0017 seconds
+Total CO₂ emissions: 0.000004 kg
+
+========================================================

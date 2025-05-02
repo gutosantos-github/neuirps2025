@@ -1,0 +1,2 @@
+Accuracy (%),Precision (%),Recall (%),F1-Score (%),Carbon Emissions (kgCO2eq),Inference Time (s),Max Memory (MiB)
+99.69262295081968,99.70570487514665,99.66556802438164,99.68545402161861,9.212898890894269e-07,0.3929727077484131,177.25

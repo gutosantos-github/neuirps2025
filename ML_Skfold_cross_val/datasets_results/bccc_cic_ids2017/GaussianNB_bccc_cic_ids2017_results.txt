@@ -1,0 +1,20 @@
+
+======== Evaluation Results ========
+Model name: GaussianNB
+Dataset name: bccc_cic_ids2017
+
+Accuracy results: [0.7839, 0.7845, 0.7821, 0.7838, 0.7831, 0.7844, 0.782, 0.7821, 0.7838, 0.7842]
+Average Accuracy: 0.7834
+Precision results: [0.8496, 0.8499, 0.8484, 0.8495, 0.8491, 0.8499, 0.8487, 0.8486, 0.8493, 0.85]
+Average Precision: 0.8493
+Recall results: [0.7839, 0.7845, 0.7821, 0.7838, 0.7831, 0.7844, 0.782, 0.7821, 0.7838, 0.7842]
+Average Recall: 0.7834
+F1 Score results: [0.7782, 0.7789, 0.7764, 0.7782, 0.7774, 0.7788, 0.7762, 0.7762, 0.7782, 0.7786]
+Average F1 Score: 0.7777
+ROC AUC results: [np.float64(0.8604), np.float64(0.8638), np.float64(0.8594), np.float64(0.8619), np.float64(0.8602), np.float64(0.8617), np.float64(0.8603), np.float64(0.8593), np.float64(0.8601), np.float64(0.8589)]
+Average ROC AUC: 0.8606
+Average Training Time per Fold: 0.2579 seconds
+Average Testing Time per Fold: 0.0188 seconds
+Total CO₂ emissions: 0.000005 kg
+
+========================================================

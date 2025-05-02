@@ -1,0 +1,22 @@
+
+======== Evaluation Results ========
+HDC Model name: BinHD
+Dataset name: botNetIot
+Device: cpu
+Min Value: -76.43, Max Value: 119.93
+
+Accuracy results: [0.394, 0.7755, 0.4404, 0.3221, 0.2621, 0.7946, 0.5155, 0.5118, 0.6087, 0.6801]
+Average Accuracy: 0.5305
+Precision results: [0.2172, 0.4709, 0.1093, 0.0601, 0.2129, 0.5103, 0.1046, 0.2657, 0.1265, 0.368]
+Average Precision: 0.2445
+Recall results: [0.7157, 0.4918, 0.23, 0.1505, 0.9223, 0.7261, 0.1707, 0.7408, 0.1437, 0.7133]
+Average Recall: 0.5005
+F1 Score results: [0.3332, 0.4812, 0.1482, 0.0859, 0.346, 0.5993, 0.1297, 0.3911, 0.1345, 0.4855]
+Average F1 Score: 0.3135
+ROC AUC results: [0.5116, 0.6718, 0.3635, 0.2593, 0.5036, 0.7695, 0.3893, 0.5956, 0.4386, 0.6923]
+Average ROC AUC: 0.5195
+Average Training Time per Fold: 28.0787 seconds
+Average Testing Time per Fold: 4.0442 seconds
+Total CO₂ emissions: 0.000508 kg
+
+========================================================

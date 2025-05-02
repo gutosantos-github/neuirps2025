@@ -1,0 +1,20 @@
+
+======== Evaluation Results ========
+Model name: RandomForest
+Dataset name: unsw_nb15
+
+Accuracy results: [0.8925, 0.889, 0.8887, 0.8886, 0.8891, 0.886, 0.8882, 0.8912, 0.8862, 0.8896]
+Average Accuracy: 0.8889
+Precision results: [0.8979, 0.8938, 0.8937, 0.8936, 0.8943, 0.8926, 0.8933, 0.8965, 0.892, 0.8942]
+Average Precision: 0.8942
+Recall results: [0.8925, 0.889, 0.8887, 0.8886, 0.8891, 0.886, 0.8882, 0.8912, 0.8862, 0.8896]
+Average Recall: 0.8889
+F1 Score results: [0.8925, 0.889, 0.8887, 0.8886, 0.8891, 0.886, 0.8882, 0.8912, 0.8862, 0.8896]
+Average F1 Score: 0.8889
+ROC AUC results: [np.float64(0.9723), np.float64(0.9696), np.float64(0.9696), np.float64(0.9698), np.float64(0.9705), np.float64(0.9698), np.float64(0.9708), np.float64(0.9713), np.float64(0.9696), np.float64(0.9706)]
+Average ROC AUC: 0.9704
+Average Training Time per Fold: 21.2996 seconds
+Average Testing Time per Fold: 0.0627 seconds
+Total CO₂ emissions: 0.000225 kg
+
+========================================================

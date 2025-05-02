@@ -1,0 +1,22 @@
+
+======== Evaluation Results ========
+HDC Model name: NeuralHD
+Dataset name: botNetIot
+Device: cpu
+Min Value: -76.43, Max Value: 119.93
+
+Accuracy results: [0.9941, 0.9943, 0.9953, 0.995, 0.9946, 0.9932, 0.9941, 0.9946, 0.9944, 0.994]
+Average Accuracy: 0.9944
+Precision results: [0.9812, 0.9818, 0.9852, 0.9846, 0.984, 0.9782, 0.9818, 0.9836, 0.9834, 0.9815]
+Average Precision: 0.9825
+Recall results: [0.991, 0.9913, 0.9926, 0.9916, 0.9904, 0.9899, 0.9905, 0.991, 0.9901, 0.9904]
+Average Recall: 0.9909
+F1 Score results: [0.9861, 0.9865, 0.9889, 0.9881, 0.9872, 0.984, 0.9862, 0.9873, 0.9868, 0.9859]
+Average F1 Score: 0.9867
+ROC AUC results: [0.9929, 0.9932, 0.9943, 0.9937, 0.993, 0.992, 0.9928, 0.9933, 0.9928, 0.9927]
+Average ROC AUC: 0.9931
+Average Training Time per Fold: 2122.5816 seconds
+Average Testing Time per Fold: 2.7957 seconds
+Total CO₂ emissions: 0.033589 kg
+
+========================================================

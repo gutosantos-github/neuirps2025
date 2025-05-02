@@ -1,0 +1,22 @@
+
+======== Evaluation Results ========
+HDC Model name: AdaptHD
+Dataset name: malicious
+Device: cpu
+Min Value: -7.24, Max Value: 110.68
+
+Accuracy results: [0.8849, 0.8881, 0.946, 0.887, 0.9448, 0.9431, 0.9444, 0.9433, 0.9422, 0.9404]
+Average Accuracy: 0.9264
+Precision results: [0.9888, 0.9965, 0.9051, 0.9923, 0.9021, 0.8994, 0.906, 0.9037, 0.8993, 0.8974]
+Average Precision: 0.9291
+Recall results: [0.7374, 0.7392, 0.975, 0.7396, 0.9759, 0.9752, 0.9695, 0.9699, 0.9729, 0.9707]
+Average Recall: 0.9025
+F1 Score results: [0.8448, 0.8487, 0.9388, 0.8475, 0.9375, 0.9357, 0.9367, 0.9356, 0.9347, 0.9326]
+Average F1 Score: 0.9093
+ROC AUC results: [0.8656, 0.8686, 0.9498, 0.8677, 0.9489, 0.9473, 0.9477, 0.9468, 0.9463, 0.9444]
+Average ROC AUC: 0.9233
+Average Training Time per Fold: 37.3408 seconds
+Average Testing Time per Fold: 0.5564 seconds
+Total CO₂ emissions: 0.000560 kg
+
+========================================================

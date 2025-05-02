@@ -1,0 +1,20 @@
+
+======== Evaluation Results ========
+Model name: GaussianNB
+Dataset name: nsl_kdd
+
+Accuracy results: [0.9074, 0.889, 0.8958, 0.8931, 0.895, 0.902, 0.8997, 0.8957, 0.892, 0.8923]
+Average Accuracy: 0.8962
+Precision results: [0.9157, 0.8999, 0.9053, 0.9046, 0.9051, 0.9118, 0.9094, 0.9069, 0.9034, 0.9036]
+Average Precision: 0.9066
+Recall results: [0.9074, 0.889, 0.8958, 0.8931, 0.895, 0.902, 0.8997, 0.8957, 0.892, 0.8923]
+Average Recall: 0.8962
+F1 Score results: [0.9065, 0.8874, 0.8946, 0.8916, 0.8936, 0.9008, 0.8984, 0.8943, 0.8904, 0.8908]
+Average F1 Score: 0.8948
+ROC AUC results: [np.float64(0.946), np.float64(0.9435), np.float64(0.941), np.float64(0.9425), np.float64(0.9406), np.float64(0.9457), np.float64(0.9475), np.float64(0.9433), np.float64(0.9452), np.float64(0.9378)]
+Average ROC AUC: 0.9433
+Average Training Time per Fold: 0.0295 seconds
+Average Testing Time per Fold: 0.0022 seconds
+Total CO₂ emissions: 0.000001 kg
+
+========================================================

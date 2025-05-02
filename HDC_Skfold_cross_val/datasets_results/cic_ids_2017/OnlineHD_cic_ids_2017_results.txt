@@ -1,0 +1,22 @@
+
+======== Evaluation Results ========
+HDC Model name: OnlineHD
+Dataset name: cic_ids_2017
+Device: cpu
+Min Value: -11.56, Max Value: 339.89
+
+Accuracy results: [0.9796, 0.9803, 0.98, 0.9803, 0.9776, 0.9794, 0.9793, 0.9803, 0.9805, 0.9799]
+Average Accuracy: 0.9797
+Precision results: [0.9638, 0.9694, 0.9661, 0.9669, 0.961, 0.9648, 0.9637, 0.9649, 0.9656, 0.9659]
+Average Precision: 0.9652
+Recall results: [0.9797, 0.9758, 0.9786, 0.9786, 0.977, 0.9781, 0.979, 0.9806, 0.9806, 0.9787]
+Average Recall: 0.9787
+F1 Score results: [0.9717, 0.9726, 0.9723, 0.9727, 0.969, 0.9714, 0.9713, 0.9727, 0.973, 0.9722]
+Average F1 Score: 0.9719
+ROC AUC results: [0.9796, 0.9793, 0.9797, 0.9799, 0.9774, 0.9791, 0.9792, 0.9803, 0.9805, 0.9797]
+Average ROC AUC: 0.9795
+Average Training Time per Fold: 491.9374 seconds
+Average Testing Time per Fold: 0.9100 seconds
+Total CO₂ emissions: 0.007730 kg
+
+========================================================

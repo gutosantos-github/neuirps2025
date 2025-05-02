@@ -1,0 +1,20 @@
+
+======== Evaluation Results ========
+Model name: RandomForest
+Dataset name: nsl_kdd
+
+Accuracy results: [0.9944, 0.9938, 0.993, 0.9925, 0.9918, 0.9931, 0.9929, 0.9929, 0.9926, 0.9934]
+Average Accuracy: 0.9930
+Precision results: [0.9944, 0.9938, 0.9931, 0.9925, 0.9919, 0.9931, 0.993, 0.993, 0.9927, 0.9935]
+Average Precision: 0.9931
+Recall results: [0.9944, 0.9938, 0.993, 0.9925, 0.9918, 0.9931, 0.9929, 0.9929, 0.9926, 0.9934]
+Average Recall: 0.9930
+F1 Score results: [0.9944, 0.9938, 0.993, 0.9925, 0.9918, 0.9931, 0.9929, 0.9929, 0.9926, 0.9934]
+Average F1 Score: 0.9930
+ROC AUC results: [np.float64(0.9999), np.float64(0.9997), np.float64(0.9999), np.float64(0.9999), np.float64(0.9998), np.float64(0.9998), np.float64(0.9999), np.float64(0.9998), np.float64(0.9999), np.float64(0.9998)]
+Average ROC AUC: 0.9998
+Average Training Time per Fold: 4.5519 seconds
+Average Testing Time per Fold: 0.0522 seconds
+Total CO₂ emissions: 0.000050 kg
+
+========================================================

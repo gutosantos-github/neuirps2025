@@ -1,0 +1,22 @@
+
+======== Evaluation Results ========
+HDC Model name: OnlineHD
+Dataset name: nsl_kdd
+Device: cpu
+Min Value: -2.60, Max Value: 325.75
+
+Accuracy results: [0.9665, 0.963, 0.9631, 0.9622, 0.9618, 0.9645, 0.9624, 0.9622, 0.9614, 0.9606]
+Average Accuracy: 0.9628
+Precision results: [0.9759, 0.9707, 0.9704, 0.9716, 0.9733, 0.9588, 0.9723, 0.9669, 0.9673, 0.9707]
+Average Precision: 0.9698
+Recall results: [0.9516, 0.9492, 0.9497, 0.9464, 0.9439, 0.9652, 0.9461, 0.9514, 0.9492, 0.9439]
+Average Recall: 0.9497
+F1 Score results: [0.9636, 0.9598, 0.9599, 0.9589, 0.9584, 0.962, 0.959, 0.9591, 0.9582, 0.9571]
+Average F1 Score: 0.9596
+ROC AUC results: [0.9655, 0.9621, 0.9622, 0.9612, 0.9607, 0.9646, 0.9613, 0.9615, 0.9606, 0.9595]
+Average ROC AUC: 0.9619
+Average Training Time per Fold: 95.0031 seconds
+Average Testing Time per Fold: 0.2602 seconds
+Total CO₂ emissions: 0.001503 kg
+
+========================================================

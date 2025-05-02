@@ -1,0 +1,20 @@
+
+======== Evaluation Results ========
+Model name: KNN
+Dataset name: nsl_kdd
+
+Accuracy results: [0.9955, 0.9966, 0.9962, 0.996, 0.9967, 0.9964, 0.9967, 0.9966, 0.996, 0.9954]
+Average Accuracy: 0.9962
+Precision results: [0.9955, 0.9966, 0.9962, 0.996, 0.9967, 0.9964, 0.9967, 0.9966, 0.996, 0.9954]
+Average Precision: 0.9962
+Recall results: [0.9955, 0.9966, 0.9962, 0.996, 0.9967, 0.9964, 0.9967, 0.9966, 0.996, 0.9954]
+Average Recall: 0.9962
+F1 Score results: [0.9955, 0.9966, 0.9962, 0.996, 0.9967, 0.9964, 0.9967, 0.9966, 0.996, 0.9954]
+Average F1 Score: 0.9962
+ROC AUC results: [np.float64(0.9989), np.float64(0.9988), np.float64(0.9987), np.float64(0.9984), np.float64(0.9984), np.float64(0.9989), np.float64(0.9994), np.float64(0.9984), np.float64(0.9987), np.float64(0.9983)]
+Average ROC AUC: 0.9987
+Average Training Time per Fold: 0.2902 seconds
+Average Testing Time per Fold: 5.7121 seconds
+Total CO₂ emissions: 0.000121 kg
+
+========================================================

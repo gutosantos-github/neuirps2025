@@ -1,0 +1,220 @@
+import torch
+import torch.nn as nn
+from torch import Tensor
+from torch.nn.parameter import Parameter
+from torchhd import embeddings
+import torchhd.functional as functional
+from torchhd.tensors.bsc import BSCTensor
+from sklearn.preprocessing import LabelEncoder
+
+__all__ = [
+    "ScatterCode",
+    "CategoricalEncoder",
+]
+
+
+def bin_level(
+        num_vectors: int,
+        dimensions: int,
+        *,
+        requires_grad=False,
+        **kwargs,
+) -> BSCTensor:
+    """Creates a set of binary level based on Scatter Code.
+
+    Args:
+        num_vectors (int): the number of hypervectors to generate.
+        dimensions (int): the dimensionality of the hypervectors.
+        dtype (``torch.dtype``, optional): the desired data type of returned tensor. Default: if ``None`` depends on VSATensor.
+        device (``torch.device``, optional):  the desired device of returned tensor. Default: if ``None``, uses the current device for the default tensor type (see torch.set_default_tensor_type()). ``device`` will be the CPU for CPU tensor types and the current CUDA device for CUDA tensor types.
+        requires_grad (bool, optional): If autograd should record operations on the returned tensor. Default: ``False``.
+
+    """
+    vsa_tensor = BSCTensor
+
+    num_flipped_bits = dimensions // num_vectors
+    idx_mapping = torch.randperm(dimensions)
+
+    hv = torch.empty(
+        num_vectors,
+        dimensions,
+        dtype=kwargs["dtype"],
+        device=kwargs["device"],
+    ).as_subclass(vsa_tensor)
+
+    base = vsa_tensor.random(
+        1,
+        dimensions,
+        **kwargs,
+    )
+
+    hv[0] = base[0]  # min hyper-vector
+    slice_start = 0
+    slice_end = num_flipped_bits
+
+    for i in range(1, num_vectors):
+        #Cria uma cópia do vetor base para evitar alterações acumulativas
+        new_base = base.clone()
+
+        # Alteração com bits invertidos para gerar variações
+        new_base.scatter_(1, idx_mapping[slice_start:slice_end].unsqueeze(0), 2, reduce='add')
+        hv[i] = new_base[0]
+
+        slice_start = slice_end
+        slice_end += num_flipped_bits
+
+    hv = hv.where(hv < 2, torch.logical_not(hv - 2))
+    hv.requires_grad = requires_grad
+    return hv
+
+    # for i in range(1, num_vectors):
+    #     # Mark adding by 2 the num_flipped_bits position from base hyper-vector
+    #     base.scatter_(1, idx_mapping[slice_start:slice_end].unsqueeze(0), 2, reduce='add')
+    #     hv[i] = base[0]
+    #     slice_start = slice_end
+    #     slice_end += num_flipped_bits
+    #
+    # hv = hv.where(hv < 2, torch.logical_not(hv - 2))
+    # hv.requires_grad = requires_grad
+    # return hv
+
+
+class ScatterCode(nn.Embedding):
+    """Embedding wrapper around :func:`bin_level`.
+
+    Class inherits from `Embedding <https://pytorch.org/docs/stable/generated/torch.nn.Embedding.html>`_ and supports the same keyword arguments.
+
+    Args:
+        num_embeddings (int): the number of hypervectors to generate.
+        embedding_dim (int): the dimensionality of the hypervectors.
+        vsa: (``VSAOptions``, optional): specifies the hypervector type to be instantiated. Default: ``"MAP"``.
+        low (float, optional): The lower bound of the real number range that the levels represent. Default: ``0.0``
+        high (float, optional): The upper bound of the real number range that the levels represent. Default: ``1.0``
+        dtype (``torch.dtype``, optional): the desired data type of returned tensor. Default: if ``None`` uses default of ``VSATensor``.
+        device (``torch.device``, optional):  the desired device of returned tensor. Default: if ``None``, uses the current device for the default tensor type (see torch.set_default_tensor_type()). ``device`` will be the CPU for CPU tensor types and the current CUDA device for CUDA tensor types.
+        requires_grad (bool, optional): If autograd should record operations on the returned tensor. Default: ``False``.
+
+    Values outside the interval between low and high are clipped to the binary bound.
+    """
+
+    __constants__ = [
+        "num_embeddings",
+        "embedding_dim",
+        "low",
+        "high",
+    ]
+
+    low: float
+    high: float
+    vsa = "BSC"
+
+    def __init__(
+            self,
+            num_embeddings: int,
+            embedding_dim: int,
+            low: float = 0.0,
+            high: float = 1.0,
+            requires_grad: bool = False,
+            device=None,
+    ) -> None:
+        factory_kwargs = {"device": device, "dtype": torch.int8}
+        # Have to call Module init explicitly in order not to use the Embedding init
+        nn.Module.__init__(self)
+
+        self.num_embeddings = num_embeddings
+        self.embedding_dim = embedding_dim
+        self.low = low
+        self.high = high
+        self.padding_idx = None  # required by nn.Embedding
+        self.max_norm = None  # required by nn.Embedding
+        self.norm_type = 2  # required by nn.Embedding
+        self.scale_grad_by_freq = False  # required by nn.Embedding
+        self.sparse = False  # required by nn.Embedding
+
+        embeddings = bin_level(
+            num_embeddings,
+            embedding_dim,
+            **factory_kwargs
+        )
+        # Have to provide requires grad at the creation of the parameters to
+        # prevent errors when instantiating a non-float embedding
+        self.weight = Parameter(embeddings, requires_grad=requires_grad)
+
+        # print(f"self.num_embeddings: {self.num_embeddings}") #100
+        # print(f"self.embedding_dim: {self.embedding_dim}") #1000
+        # print(f"self.high = {self.high}")
+        # print(f"self.low = {self.low}")
+
+    def reset_parameters(self) -> None:
+        factory_kwargs = {"device": self.weight.device, "dtype": self.weight.dtype}
+
+        with torch.no_grad():
+            embeddings = bin_level(
+                self.num_embeddings,
+                self.embedding_dim,
+                **factory_kwargs,
+                **self.vsa_kwargs,
+            )
+            self.weight.copy_(embeddings)
+
+    def forward(self, input: Tensor) -> Tensor:
+        index = functional.value_to_index(
+            input, self.low, self.high, self.num_embeddings
+        )
+        index = index.clamp(min=0, max=self.num_embeddings - 1)
+        vsa_tensor = functional.get_vsa_tensor_class(self.vsa)
+        return super().forward(index).as_subclass(vsa_tensor)
+
+
+class CategoricalEncoder(nn.Module):
+    def __init__(self, out_features, dtype=torch.uint8):
+        super(CategoricalEncoder, self).__init__()
+        self.dimension = out_features
+        self.num_features = 0
+        self.hv_matrix = []
+        self.dtype = dtype
+
+    def fit_transform(self, data):
+        self.num_features = data.shape[1]
+
+        for i in range(self.num_features):
+            encoder = LabelEncoder()
+            data.iloc[:, i] = encoder.fit_transform(data.iloc[:, i])
+            num_values = len(encoder.classes_)
+            self.hv_matrix.append(functional.random(num_values, self.dimension, vsa="BSC", dtype=self.dtype))
+
+        return data.astype("int32")
+
+    def forward(self, x):
+        x.transpose_(1, 0)
+
+        sample_hv = torch.empty((x.shape[0], x.shape[1], self.dimension), dtype=torch.int8)
+
+        for i in range(self.num_features):
+            sample_hv[i] = torch.index_select(self.hv_matrix[i], 0, x[i])
+
+        sample_hv = torch.permute(sample_hv, (1, 0, 2))
+        return sample_hv.as_subclass(BSCTensor)
+
+
+class RandomProjectionEncoder(nn.Module):
+    def __init__(self, in_features, out_features):
+        super(RandomProjectionEncoder, self).__init__()
+        self.projection = embeddings.Sinusoid(in_features, out_features)
+
+    def forward(self, x):
+        """ Continuous-valued output """
+        x = x.to(dtype=torch.float32)
+        return self.projection(x)
+
+    def forward_bin(self, x):
+        """ Binary output using thresholding """
+        x = x.to(dtype=torch.float32)
+        sample_hv = self.projection(x)
+        return BSCTensor(torch.where(sample_hv > 0, 1, 0).to(dtype=torch.int8))
+        
+        #torch.set_printoptions(profile="full")
+        #print(sample_hv)
+        #sample_hv = sample_hv.to(dtype=torch.int8) % 2
+        #print(sample_hv)
+        #return sample_hv.as_subclass(BSCTensor)

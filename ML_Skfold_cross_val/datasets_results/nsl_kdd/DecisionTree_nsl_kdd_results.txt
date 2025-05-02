@@ -1,0 +1,20 @@
+
+======== Evaluation Results ========
+Model name: DecisionTree
+Dataset name: nsl_kdd
+
+Accuracy results: [0.9974, 0.9977, 0.9965, 0.9973, 0.9965, 0.997, 0.9972, 0.9979, 0.9976, 0.9967]
+Average Accuracy: 0.9972
+Precision results: [0.9974, 0.9977, 0.9965, 0.9973, 0.9965, 0.997, 0.9972, 0.9979, 0.9976, 0.9967]
+Average Precision: 0.9972
+Recall results: [0.9974, 0.9977, 0.9965, 0.9973, 0.9965, 0.997, 0.9972, 0.9979, 0.9976, 0.9967]
+Average Recall: 0.9972
+F1 Score results: [0.9974, 0.9977, 0.9965, 0.9973, 0.9965, 0.997, 0.9972, 0.9979, 0.9976, 0.9967]
+Average F1 Score: 0.9972
+ROC AUC results: [np.float64(0.9997), np.float64(0.9992), np.float64(0.9993), np.float64(0.999), np.float64(0.9987), np.float64(0.9993), np.float64(0.9993), np.float64(0.9991), np.float64(0.9989), np.float64(0.9995)]
+Average ROC AUC: 0.9992
+Average Training Time per Fold: 0.2647 seconds
+Average Testing Time per Fold: 0.0017 seconds
+Total CO₂ emissions: 0.000003 kg
+
+========================================================
