@@ -15,7 +15,6 @@ class BotNetIot(Dataset):
        'hphp_l0.1_radius', 'hphp_l0.1_covariance', 'hphp_l0.1_pcc']
 
     def __init__(self):
-        # base_dir = "/binhd-ids/binhd-ids/datasets/dataset"
         base_dir = "/mnt/sdb4/new_binHD++/binhd_iterative_fit/dataset_botNeTIoT-L01"
 
         # Nome da coluna de rótulo (última coluna do dataset)

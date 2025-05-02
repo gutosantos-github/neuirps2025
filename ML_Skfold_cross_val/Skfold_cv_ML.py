@@ -30,11 +30,11 @@ k_folds = 10
 kf = StratifiedKFold(n_splits=k_folds, shuffle=True, random_state=0)
 
 datasets = {
-    "malicious": IntrusionDetection(),
-    "nsl_kdd": Nslkdd(),
-    "unsw_nb15": Unsw_nb15(),
-    "cic_ids_2017": Cic_ids_2017(),
-    "bccc_cic_ids2017": Bccc_cic_ids2017(),
+    # "malicious": IntrusionDetection(),
+    # "nsl_kdd": Nslkdd(),
+    # "unsw_nb15": Unsw_nb15(),
+    # "cic_ids_2017": Cic_ids_2017(),
+    # "bccc_cic_ids2017": Bccc_cic_ids2017(),
     "botNetIot": BotNetIot()
 }
 
