@@ -5,18 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="deb12faf-71ca-4f80-9117-de64513d872b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/ML_Skfold_cross_val/matplotML/matplot.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HDC_Skfold_cross_val/planilha_metricas_artigo/all_hd_metrics.ods" beforeDir="false" afterPath="$PROJECT_DIR$/HDC_Skfold_cross_val/planilha_metricas_artigo/all_hd_metrics.ods" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ML_Skfold_cross_val/Skfold_cv_ML.py" beforeDir="false" afterPath="$PROJECT_DIR$/ML_Skfold_cross_val/Skfold_cv_ML.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ML_Skfold_cross_val/datasets_results/cic_ids_2017/AdaBoost_cic_ids_2017_results.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ML_Skfold_cross_val/datasets_results/cic_ids_2017/DecisionTree_cic_ids_2017_results.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ML_Skfold_cross_val/datasets_results/cic_ids_2017/GaussianNB_cic_ids_2017_results.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ML_Skfold_cross_val/datasets_results/cic_ids_2017/KNN_cic_ids_2017_results.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ML_Skfold_cross_val/datasets_results/cic_ids_2017/LogisticRegression_cic_ids_2017_results.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ML_Skfold_cross_val/datasets_results/cic_ids_2017/RandomForest_cic_ids_2017_results.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ML_Skfold_cross_val/emissions/emissions.csv" beforeDir="false" afterPath="$PROJECT_DIR$/ML_Skfold_cross_val/emissions/emissions.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets_classes/botNetIot_L01_class.py" beforeDir="false" afterPath="$PROJECT_DIR$/datasets_classes/botNetIot_L01_class.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets_classes/cic_ids_2017_class.py" beforeDir="false" afterPath="$PROJECT_DIR$/datasets_classes/cic_ids_2017_class.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HDC_Skfold_cross_val/matplot/accuracy_comparison.png" beforeDir="false" afterPath="$PROJECT_DIR$/HDC_Skfold_cross_val/matplotHD/accuracy_comparison.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HDC_Skfold_cross_val/matplot/matplot.py" beforeDir="false" afterPath="$PROJECT_DIR$/HDC_Skfold_cross_val/matplotHD/matplot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ML_Skfold_cross_val/planilha_MLmetricas_artigo/.~lock.all_ML_metrics.ods#" beforeDir="false" afterPath="$PROJECT_DIR$/ML_Skfold_cross_val/planilha_MLmetricas_artigo/.~lock.all_ML_metrics.ods#" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ML_Skfold_cross_val/planilha_MLmetricas_artigo/all_ML_metrics.ods" beforeDir="false" afterPath="$PROJECT_DIR$/ML_Skfold_cross_val/planilha_MLmetricas_artigo/all_ML_metrics.ods" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,18 +28,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Python.Skfold_cv_ML.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/mnt/sdb4/neurips2025&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.Skfold_cv_ML.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/mnt/sdb4/neurips2025/ML_Skfold_cross_val"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ML_Skfold_cross_val" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/ML_Skfold_cross_val/datasets_results/cic_ids_2017" />
       <recent name="$PROJECT_DIR$/ML_Skfold_cross_val/datasets_results/botNetIot" />
