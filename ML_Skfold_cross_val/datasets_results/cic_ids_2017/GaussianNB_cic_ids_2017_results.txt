@@ -3,18 +3,18 @@
 Model name: GaussianNB
 Dataset name: cic_ids_2017
 
-Accuracy results: [0.7852, 0.7816, 0.78, 0.7822, 0.7791, 0.7808, 0.7805, 0.7792, 0.7841, 0.7822]
-Average Accuracy: 0.7815
-Precision results: [0.8625, 0.8614, 0.8602, 0.8616, 0.8599, 0.8607, 0.8604, 0.8601, 0.8621, 0.8614]
-Average Precision: 0.8610
-Recall results: [0.7852, 0.7816, 0.78, 0.7822, 0.7791, 0.7808, 0.7805, 0.7792, 0.7841, 0.7822]
-Average Recall: 0.7815
-F1 Score results: [0.7885, 0.7849, 0.7832, 0.7854, 0.7823, 0.784, 0.7837, 0.7824, 0.7874, 0.7855]
-Average F1 Score: 0.7847
-ROC AUC results: [np.float64(0.9672), np.float64(0.9646), np.float64(0.9641), np.float64(0.9644), np.float64(0.9653), np.float64(0.9652), np.float64(0.965), np.float64(0.9642), np.float64(0.9648), np.float64(0.9654)]
-Average ROC AUC: 0.9650
-Average Training Time per Fold: 0.1575 seconds
-Average Testing Time per Fold: 0.0114 seconds
-Total CO₂ emissions: 0.000003 kg
+Accuracy results: [0.7941, 0.7911, 0.7901, 0.791, 0.7892, 0.7885, 0.7901, 0.7894, 0.7942, 0.7922]
+Average Accuracy: 0.7910
+Precision results: [0.8662, 0.8655, 0.8647, 0.8652, 0.8643, 0.8642, 0.8646, 0.8647, 0.8664, 0.8654]
+Average Precision: 0.8651
+Recall results: [0.7941, 0.7911, 0.7901, 0.791, 0.7892, 0.7885, 0.7901, 0.7894, 0.7942, 0.7922]
+Average Recall: 0.7910
+F1 Score results: [0.7976, 0.7944, 0.7934, 0.7944, 0.7925, 0.7918, 0.7935, 0.7928, 0.7976, 0.7956]
+Average F1 Score: 0.7944
+ROC AUC results: [0.9576, 0.9557, 0.9551, 0.9559, 0.9561, 0.9561, 0.9556, 0.9548, 0.9564, 0.9566]
+Average ROC AUC: 0.9560
+Average Training Time per Fold: 0.1327 seconds
+Average Testing Time per Fold: 0.0093 seconds
+Total CO₂ emissions: 0.000006 kg
 
 ========================================================

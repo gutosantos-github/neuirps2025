@@ -9,10 +9,14 @@ class BotNetIot(Dataset):
 
     name = "botnetiot"
     categorical_features = []
-    numeric_features = ['mi_dir_l0.1_weight', 'mi_dir_l0.1_mean', 'hh_l0.1_weight',
-       'hh_l0.1_mean', 'hh_l0.1_std', 'hh_l0.1_covariance', 'hh_l0.1_pcc',
-       'hh_jit_l0.1_mean', 'hh_jit_l0.1_variance', 'hphp_l0.1_weight',
-       'hphp_l0.1_radius', 'hphp_l0.1_covariance', 'hphp_l0.1_pcc']
+    numeric_features = ['hh_l0.1_mean',
+                        'hh_l0.1_std',
+                        'hh_l0.1_covariance',
+                        'hh_l0.1_pcc',
+                        'hh_jit_l0.1_variance',
+                        'hphp_l0.1_weight',
+                        'hphp_l0.1_radius',
+                        'hphp_l0.1_pcc']
 
     def __init__(self):
         base_dir = "/mnt/sdb4/new_binHD++/binhd_iterative_fit/dataset_botNeTIoT-L01"

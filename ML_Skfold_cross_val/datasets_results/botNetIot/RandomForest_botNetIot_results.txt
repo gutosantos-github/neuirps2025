@@ -1,0 +1,20 @@
+
+======== Evaluation Results ========
+Model name: RandomForest
+Dataset name: botNetIot
+
+Accuracy results: [0.9981, 0.998, 0.9978, 0.998, 0.9979, 0.9978, 0.9979, 0.998, 0.998, 0.9981]
+Average Accuracy: 0.9980
+Precision results: [0.9982, 0.998, 0.9978, 0.998, 0.9979, 0.9978, 0.9979, 0.998, 0.998, 0.9981]
+Average Precision: 0.9980
+Recall results: [0.9981, 0.998, 0.9978, 0.998, 0.9979, 0.9978, 0.9979, 0.998, 0.998, 0.9981]
+Average Recall: 0.9980
+F1 Score results: [0.9981, 0.998, 0.9978, 0.998, 0.9979, 0.9978, 0.9979, 0.998, 0.998, 0.9981]
+Average F1 Score: 0.9980
+ROC AUC results: [0.9996, 0.9995, 0.9993, 0.9994, 0.9995, 0.9996, 0.9995, 0.9995, 0.9995, 0.9994]
+Average ROC AUC: 0.9995
+Average Training Time per Fold: 176.3478 seconds
+Average Testing Time per Fold: 0.5221 seconds
+Total CO₂ emissions: 0.004157 kg
+
+========================================================

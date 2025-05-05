@@ -41,7 +41,7 @@ datasets = {
 models = {
     "GaussianNB": GaussianNB(),
     "KNN": KNeighborsClassifier(n_neighbors=5),
-    "RandomForest": RandomForestClassifier(max_depth=10, random_state=100),
+    # "RandomForest": RandomForestClassifier(max_depth=10, random_state=100),
     "AdaBoost": AdaBoostClassifier(),
     "LogisticRegression": LogisticRegression(),
     "DecisionTree": DecisionTreeClassifier(criterion="gini", random_state=100, max_depth=10, min_samples_leaf=5)
