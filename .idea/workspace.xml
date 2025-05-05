@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="deb12faf-71ca-4f80-9117-de64513d872b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ML_Skfold_cross_val/matplotML/matplot.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HDC_Skfold_cross_val/matplot/accuracy_comparison.png" beforeDir="false" afterPath="$PROJECT_DIR$/HDC_Skfold_cross_val/matplotHD/accuracy_comparison.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HDC_Skfold_cross_val/matplot/matplot.py" beforeDir="false" afterPath="$PROJECT_DIR$/HDC_Skfold_cross_val/matplotHD/matplot.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ML_Skfold_cross_val/planilha_MLmetricas_artigo/.~lock.all_ML_metrics.ods#" beforeDir="false" afterPath="$PROJECT_DIR$/ML_Skfold_cross_val/planilha_MLmetricas_artigo/.~lock.all_ML_metrics.ods#" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ML_Skfold_cross_val/planilha_MLmetricas_artigo/all_ML_metrics.ods" beforeDir="false" afterPath="$PROJECT_DIR$/ML_Skfold_cross_val/planilha_MLmetricas_artigo/all_ML_metrics.ods" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
