@@ -3,18 +3,18 @@
 Model name: DecisionTree
 Dataset name: cic_ids_2017
 
-Accuracy results: [0.9982, 0.9981, 0.9979, 0.9981, 0.9978, 0.998, 0.9984, 0.9982, 0.998, 0.9981]
-Average Accuracy: 0.9981
-Precision results: [0.9982, 0.9981, 0.9979, 0.9981, 0.9978, 0.998, 0.9984, 0.9982, 0.998, 0.9981]
-Average Precision: 0.9981
-Recall results: [0.9982, 0.9981, 0.9979, 0.9981, 0.9978, 0.998, 0.9984, 0.9982, 0.998, 0.9981]
-Average Recall: 0.9981
-F1 Score results: [0.9982, 0.9981, 0.9979, 0.9981, 0.9978, 0.998, 0.9984, 0.9982, 0.998, 0.9981]
-Average F1 Score: 0.9981
-ROC AUC results: [0.9997, 0.9997, 0.9996, 0.9998, 0.9996, 0.9996, 0.9997, 0.9998, 0.9997, 0.9997]
-Average ROC AUC: 0.9997
-Average Training Time per Fold: 1.9298 seconds
-Average Testing Time per Fold: 0.0034 seconds
-Total CO₂ emissions: 0.000047 kg
+Accuracy results: [0.9969, 0.9971, 0.9971, 0.9971, 0.9972, 0.9971, 0.9971, 0.9968, 0.997, 0.9971]
+Average Accuracy: 0.9970
+Precision results: [0.9969, 0.9971, 0.9971, 0.9971, 0.9972, 0.9971, 0.9971, 0.9968, 0.997, 0.9971]
+Average Precision: 0.9970
+Recall results: [0.9969, 0.9971, 0.9971, 0.9971, 0.9972, 0.9971, 0.9971, 0.9968, 0.997, 0.9971]
+Average Recall: 0.9970
+F1 Score results: [0.9969, 0.9971, 0.997, 0.9971, 0.9972, 0.9971, 0.9971, 0.9968, 0.997, 0.9971]
+Average F1 Score: 0.9970
+ROC AUC results: [0.9998, 0.9998, 0.9998, 0.9998, 0.9999, 0.9998, 0.9999, 0.9998, 0.9999, 0.9998]
+Average ROC AUC: 0.9998
+Average Training Time per Fold: 3.9981 seconds
+Average Testing Time per Fold: 0.0056 seconds
+Total CO₂ emissions: 0.000097 kg
 
 ========================================================

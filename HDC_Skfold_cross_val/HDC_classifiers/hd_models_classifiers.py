@@ -87,6 +87,30 @@ class BinHD(nn.Module):
         else:
             print(f"{name:<25}: None")
 
+    def print_model_size(self, model):
+        total = 0
+        print("Model component sizes:")
+
+        # Print registered parameters (e.g., encoder weights)
+        for name, param in model.named_parameters():
+            size_bytes = param.numel() * param.element_size()
+            total += size_bytes
+            print(f"  {name:<25}: {size_bytes / (1024 ** 2):.4f} MB")
+
+        # Include custom components manually if they exist
+        extra_components = {
+            'classes_counter': getattr(model, 'classes_counter', None),
+            'classes_hv': getattr(model, 'classes_hv', None),
+        }
+
+        for name, tensor in extra_components.items():
+            if tensor is not None and isinstance(tensor, torch.Tensor):
+                size_bytes = tensor.numel() * tensor.element_size()
+                total += size_bytes
+                print(f"  {name:<25}: {size_bytes / (1024 ** 2):.4f} MB")
+
+        print(f"\nTotal model size: {total / (1024 ** 2):.4f} MB")
+
 
 class NeuralHD(nn.Module):
     r"""Implements `Scalable edge-based hyperdimensional learning system with brain-like neural adaptation <https://dl.acm.org/doi/abs/10.1145/3458817.3480958>`_.
@@ -101,7 +125,6 @@ class NeuralHD(nn.Module):
         lr (float, optional): The learning rate.
         device (``torch.device``, optional):  the desired device of the weights. Default: if ``None``, uses the current device for the default tensor type (see ``torch.set_default_tensor_type()``). ``device`` will be the CPU for CPU tensor types and the current CUDA device for CUDA tensor types.
         dtype (``torch.dtype``, optional): the desired data type of the weights. Default: if ``None``, uses ``torch.get_default_dtype()``.
-
     """
 
     model: Centroid
@@ -163,13 +186,37 @@ class NeuralHD(nn.Module):
     def predict(self, samples: Tensor) -> Tensor:
         return torch.argmax(self(samples), dim=-1)
 
+    # def print_model_size(self, model):
+    #     total = 0
+    #     print("Model component sizes:")
+    #     for name, param in model.named_parameters():
+    #         size_bytes = param.numel() * param.element_size()
+    #         total += size_bytes
+    #         print(f"  {name:<25}: {size_bytes / (1024 ** 2):.4f} MB")
+    #     print(f"\nTotal model size: {total / (1024 ** 2):.4f} MB")
+
     def print_model_size(self, model):
         total = 0
         print("Model component sizes:")
+
+        # Print registered parameters (e.g., encoder weights)
         for name, param in model.named_parameters():
             size_bytes = param.numel() * param.element_size()
             total += size_bytes
             print(f"  {name:<25}: {size_bytes / (1024 ** 2):.4f} MB")
+
+        # Include custom components manually if they exist
+        extra_components = {
+            'classes_counter': getattr(model, 'classes_counter', None),
+            'classes_hv': getattr(model, 'classes_hv', None),
+        }
+
+        for name, tensor in extra_components.items():
+            if tensor is not None and isinstance(tensor, torch.Tensor):
+                size_bytes = tensor.numel() * tensor.element_size()
+                total += size_bytes
+                print(f"  {name:<25}: {size_bytes / (1024 ** 2):.4f} MB")
+
         print(f"\nTotal model size: {total / (1024 ** 2):.4f} MB")
 
 
@@ -248,10 +295,25 @@ class OnlineHD(nn.Module):
     def print_model_size(self, model):
         total = 0
         print("Model component sizes:")
+
+        # Print registered parameters (e.g., encoder weights)
         for name, param in model.named_parameters():
             size_bytes = param.numel() * param.element_size()
             total += size_bytes
             print(f"  {name:<25}: {size_bytes / (1024 ** 2):.4f} MB")
+
+        # Include custom components manually if they exist
+        extra_components = {
+            'classes_counter': getattr(model, 'classes_counter', None),
+            'classes_hv': getattr(model, 'classes_hv', None),
+        }
+
+        for name, tensor in extra_components.items():
+            if tensor is not None and isinstance(tensor, torch.Tensor):
+                size_bytes = tensor.numel() * tensor.element_size()
+                total += size_bytes
+                print(f"  {name:<25}: {size_bytes / (1024 ** 2):.4f} MB")
+
         print(f"\nTotal model size: {total / (1024 ** 2):.4f} MB")
 
 class AdaptHD(nn.Module):
@@ -482,10 +544,25 @@ class DistHD(nn.Module):
     def print_model_size(self, model):
         total = 0
         print("Model component sizes:")
+
+        # Print registered parameters (e.g., encoder weights)
         for name, param in model.named_parameters():
             size_bytes = param.numel() * param.element_size()
             total += size_bytes
             print(f"  {name:<25}: {size_bytes / (1024 ** 2):.4f} MB")
+
+        # Include custom components manually if they exist
+        extra_components = {
+            'classes_counter': getattr(model, 'classes_counter', None),
+            'classes_hv': getattr(model, 'classes_hv', None),
+        }
+
+        for name, tensor in extra_components.items():
+            if tensor is not None and isinstance(tensor, torch.Tensor):
+                size_bytes = tensor.numel() * tensor.element_size()
+                total += size_bytes
+                print(f"  {name:<25}: {size_bytes / (1024 ** 2):.4f} MB")
+
         print(f"\nTotal model size: {total / (1024 ** 2):.4f} MB")
 
 class CompHD(nn.Module):
@@ -581,8 +658,23 @@ class CompHD(nn.Module):
     def print_model_size(self, model):
         total = 0
         print("Model component sizes:")
+
+        # Print registered parameters (e.g., encoder weights)
         for name, param in model.named_parameters():
             size_bytes = param.numel() * param.element_size()
             total += size_bytes
-            print(f"  {name:<25}: {size_bytes / (1024 ** 2):.6f} MB")
-        print(f"\nTotal model size: {total / (1024 ** 2):.6f} MB")
+            print(f"  {name:<25}: {size_bytes / (1024 ** 2):.4f} MB")
+
+        # Include custom components manually if they exist
+        extra_components = {
+            'classes_counter': getattr(model, 'classes_counter', None),
+            'classes_hv': getattr(model, 'classes_hv', None),
+        }
+
+        for name, tensor in extra_components.items():
+            if tensor is not None and isinstance(tensor, torch.Tensor):
+                size_bytes = tensor.numel() * tensor.element_size()
+                total += size_bytes
+                print(f"  {name:<25}: {size_bytes / (1024 ** 2):.4f} MB")
+
+        print(f"\nTotal model size: {total / (1024 ** 2):.4f} MB")

@@ -5,18 +5,18 @@ Dataset name: botNetIot
 Device: cpu
 Min Value: -76.43, Max Value: 119.93
 
-Accuracy results: [0.9941, 0.9943, 0.9953, 0.995, 0.9946, 0.9932, 0.9941, 0.9946, 0.9944, 0.994]
-Average Accuracy: 0.9944
-Precision results: [0.9812, 0.9818, 0.9852, 0.9846, 0.984, 0.9782, 0.9818, 0.9836, 0.9834, 0.9815]
-Average Precision: 0.9825
-Recall results: [0.991, 0.9913, 0.9926, 0.9916, 0.9904, 0.9899, 0.9905, 0.991, 0.9901, 0.9904]
-Average Recall: 0.9909
-F1 Score results: [0.9861, 0.9865, 0.9889, 0.9881, 0.9872, 0.984, 0.9862, 0.9873, 0.9868, 0.9859]
-Average F1 Score: 0.9867
-ROC AUC results: [0.9929, 0.9932, 0.9943, 0.9937, 0.993, 0.992, 0.9928, 0.9933, 0.9928, 0.9927]
-Average ROC AUC: 0.9931
-Average Training Time per Fold: 2122.5816 seconds
-Average Testing Time per Fold: 2.7957 seconds
-Total CO₂ emissions: 0.033589 kg
+Accuracy results: [0.9448, 0.9285, 0.9503, 0.9393, 0.9225, 0.9445, 0.9538, 0.9605, 0.9578, 0.9483]
+Average Accuracy: 0.9450
+Precision results: [0.8637, 0.8255, 0.888, 0.8423, 0.8219, 0.8629, 0.9033, 0.9338, 0.9225, 0.8793]
+Average Precision: 0.8743
+Recall results: [0.8775, 0.8393, 0.8757, 0.8773, 0.8087, 0.8772, 0.8756, 0.8754, 0.8743, 0.8758]
+Average Recall: 0.8657
+F1 Score results: [0.8706, 0.8324, 0.8818, 0.8594, 0.8153, 0.87, 0.8892, 0.9037, 0.8977, 0.8775]
+Average F1 Score: 0.8698
+ROC AUC results: [0.9202, 0.8959, 0.923, 0.9166, 0.8808, 0.9199, 0.9252, 0.9294, 0.9273, 0.9217]
+Average ROC AUC: 0.9160
+Average Training Time per Fold: 1999.3290 seconds
+Average Testing Time per Fold: 2.7747 seconds
+Total CO₂ emissions: 0.046844 kg
 
 ========================================================

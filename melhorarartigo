@@ -1,0 +1,29 @@
+propoe o uso dos principais modelos de HDC para detecção de intrusão baseada em anomalia 
+contribuição os metodos mais recentes de HDC com ML 
+substituir tudo por citep
+memory size = tamanho do modelo 
+etapa de tratamento cheching correlation 
+tabela com os 
+
+Experimentos:
+Tabela com todos os datasets para ML (acuracia, precisao, recall, f1, tempo teste, tempo de treino, CO2, memory size)
+Tabela com todos os datasets para ML (acuracia, precisao, recall, f1, tempo teste, tempo de treino, CO2, memory size)
+
+No HDC:
+Seleciona 3 melhores modelos 
+random projection com AdaptHD, DIstHD, CompHD, [dimensao (1024, 2048, numero de epocas(10 ate 50), level(20 ate 100)]
+pegar os datasets NDL-KDD
+record based e ngram 
+
+
+\input{sect_introduction}
+\input{sect_background}
+\input{sect_related_works}
+\input{sect_methodology}
+\input{sect_experiments}
+\input{sect_discussion_results}
+\input{sect_conclusion}
+
+
+MQTT distributed denial-of-service, MQTT publish flood,
+brute force, and SlowITE [37] attack

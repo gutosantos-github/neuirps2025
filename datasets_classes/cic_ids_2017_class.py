@@ -9,8 +9,9 @@ class Cic_ids_2017(Dataset):
 
     name = "cic_ids_2017_class"
     categorical_features = []
-    numeric_features = ['destination port', 'fwd packet length max', 'init_win_bytes_forward', 'init_win_bytes_backward', 'flow bytes/s',
-'bwd packets/s', 'min_seg_size_forward', 'fwd packet length min', 'total fwd packets']
+    numeric_features = ['destination port', 'init_win_bytes_forward', 'fwd packet length max',
+                        'init_win_bytes_backward', 'total length of fwd packets', 'fwd header length',
+                        'bwd header length', 'bwd packets/s', 'active mean']
 
     def __init__(self):
         # base_dir = "/binhd-ids/binhd-ids/datasets/dataset"

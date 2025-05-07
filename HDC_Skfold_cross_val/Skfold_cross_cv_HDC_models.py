@@ -38,11 +38,11 @@ kf = StratifiedKFold(n_splits=k_folds, shuffle=True, random_state=0)
 
 #Datasets
 datasets = {
-    "malicious": IntrusionDetection(),
-    "nsl_kdd": Nslkdd(),
-    "unsw_nb15": Unsw_nb15(),
+    # "malicious": IntrusionDetection(),
+    # "nsl_kdd": Nslkdd(),
+    # "unsw_nb15": Unsw_nb15(),
     "cic_ids_2017": Cic_ids_2017(),
-    "bccc_cic_ids2017": Bccc_cic_ids2017(),
+    # "bccc_cic_ids2017": Bccc_cic_ids2017(),
     "botNetIot": BotNetIot()
 }
 
@@ -68,10 +68,10 @@ for name_dataset, dataset in datasets.items():
     for name_model, model_class in {
         "BinHD": BinHD,
         "AdaptHD": AdaptHD,
-        "NeuralHD": NeuralHD,
-        "OnlineHD": OnlineHD,
         "DistHD": DistHD,
-        "CompHD": CompHD
+        "CompHD": CompHD,
+        "NeuralHD": NeuralHD,
+        "OnlineHD": OnlineHD
     }.items():
 
         print(f"\n======== MODEL: {name_model} on DATASET: {name_dataset} ========")

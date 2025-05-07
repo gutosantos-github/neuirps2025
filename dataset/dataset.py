@@ -65,6 +65,43 @@ class Dataset():
 
         return sample, label
 
+    def get_model_size(self, model) -> float:
+        component_sizes = {}
+        total_bytes = 0
+
+        # Coletar buffers específicos (classes_counter e classes_hv)
+        for name, buffer in model.named_buffers():
+            # for name, buffer in model.named_buffers():
+            #     print(f"Buffer: {name}, Shape: {tuple(buffer.shape)}, Dtype: {buffer.dtype}")
+            if name in ["classes_counter", "classes_hv"]:
+                size = buffer.nelement() * buffer.element_size()
+                component_sizes[name] = size
+                total_bytes += size
+
+        # Coletar parâmetro do encoder: encoder.projection
+        for name, param in model.named_parameters():
+            if name == "encoder.projection.weight":
+                size = param.nelement() * param.element_size()
+                component_sizes["encoder.projection.weight"] = size
+                total_bytes += size
+
+        for name, param in model.named_parameters():
+            # for name, param in model.named_parameters():
+            #     print(f"Parameter: {name}, Shape: {tuple(param.shape)}, Dtype: {param.dtype}")
+            if name == "encoder.projection.bias":
+                size = param.nelement() * param.element_size()
+                component_sizes["encoder.projection.bias"] = size
+                total_bytes += size
+
+        # Impressão formatada
+        print("Model component sizes:")
+        for name in ["classes_counter", "classes_hv", "encoder.projection.weight", "encoder.projection.bias"]:
+            size = component_sizes.get(name, 0)
+            print(f"  {name:20s}: {size / (1024 ** 2):.4f} MB")
+
+        print(f"\nTotal model size: {total_bytes / (1024 ** 2):.4f} MB")
+        return total_bytes / (1024 ** 2)
+
 class BaseDataset(data.Dataset):
     def __init__(self, features, labels):
         self.features = features
@@ -75,5 +112,4 @@ class BaseDataset(data.Dataset):
 
     def __getitem__(self, index: int):
         return self.features[index], self.labels[index]
-
 

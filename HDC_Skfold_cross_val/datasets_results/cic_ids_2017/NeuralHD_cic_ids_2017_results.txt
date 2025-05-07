@@ -3,20 +3,20 @@
 HDC Model name: NeuralHD
 Dataset name: cic_ids_2017
 Device: cpu
-Min Value: -11.56, Max Value: 339.89
+Min Value: -1018.56, Max Value: 393.34
 
-Accuracy results: [0.9864, 0.9841, 0.9847, 0.9848, 0.986, 0.9856, 0.985, 0.9848, 0.9844, 0.9866]
-Average Accuracy: 0.9852
-Precision results: [0.9789, 0.9713, 0.9781, 0.9753, 0.9809, 0.9742, 0.9775, 0.9732, 0.9747, 0.98]
-Average Precision: 0.9764
-Recall results: [0.9834, 0.9849, 0.9793, 0.9824, 0.98, 0.986, 0.9808, 0.9847, 0.982, 0.9827]
-Average Recall: 0.9826
-F1 Score results: [0.9811, 0.978, 0.9787, 0.9788, 0.9805, 0.9801, 0.9792, 0.9789, 0.9783, 0.9813]
-Average F1 Score: 0.9795
-ROC AUC results: [0.9858, 0.9843, 0.9835, 0.9843, 0.9847, 0.9857, 0.9841, 0.9848, 0.9839, 0.9857]
-Average ROC AUC: 0.9847
-Average Training Time per Fold: 482.1764 seconds
-Average Testing Time per Fold: 0.8970 seconds
-Total CO₂ emissions: 0.007614 kg
+Accuracy results: [0.925, 0.8887, 0.8877, 0.8829, 0.8859, 0.9199, 0.9348, 0.931, 0.9365, 0.8841]
+Average Accuracy: 0.9076
+Precision results: [0.8709, 0.8705, 0.8621, 0.854, 0.8635, 0.8683, 0.8829, 0.8725, 0.8789, 0.8451]
+Average Precision: 0.8669
+Recall results: [0.916, 0.7919, 0.7989, 0.7922, 0.791, 0.9021, 0.9327, 0.9345, 0.9439, 0.8088]
+Average Recall: 0.8612
+F1 Score results: [0.8929, 0.8293, 0.8293, 0.822, 0.8256, 0.8849, 0.9071, 0.9024, 0.9102, 0.8265]
+Average F1 Score: 0.8630
+ROC AUC results: [0.9228, 0.8654, 0.8663, 0.861, 0.8631, 0.9156, 0.9343, 0.9318, 0.9382, 0.866]
+Average ROC AUC: 0.8964
+Average Training Time per Fold: 1000.3204 seconds
+Average Testing Time per Fold: 1.4327 seconds
+Total CO₂ emissions: 0.023438 kg
 
 ========================================================

@@ -3,18 +3,18 @@
 Model name: RandomForest
 Dataset name: cic_ids_2017
 
-Accuracy results: [0.9989, 0.9988, 0.9989, 0.9988, 0.9988, 0.9988, 0.9992, 0.999, 0.9988, 0.9986]
-Average Accuracy: 0.9989
-Precision results: [0.9989, 0.9988, 0.9989, 0.9988, 0.9988, 0.9988, 0.9992, 0.999, 0.9988, 0.9986]
-Average Precision: 0.9989
-Recall results: [0.9989, 0.9988, 0.9989, 0.9988, 0.9988, 0.9988, 0.9992, 0.999, 0.9988, 0.9986]
-Average Recall: 0.9989
-F1 Score results: [0.9989, 0.9988, 0.9989, 0.9988, 0.9988, 0.9988, 0.9992, 0.999, 0.9988, 0.9986]
-Average F1 Score: 0.9989
+Accuracy results: [0.9973, 0.997, 0.9969, 0.9972, 0.9971, 0.9971, 0.9971, 0.997, 0.9968, 0.997]
+Average Accuracy: 0.9970
+Precision results: [0.9973, 0.997, 0.9969, 0.9972, 0.9971, 0.9971, 0.9971, 0.997, 0.9968, 0.997]
+Average Precision: 0.9970
+Recall results: [0.9973, 0.997, 0.9969, 0.9972, 0.9971, 0.9971, 0.9971, 0.997, 0.9968, 0.997]
+Average Recall: 0.9970
+F1 Score results: [0.9973, 0.997, 0.9969, 0.9972, 0.9971, 0.9971, 0.997, 0.997, 0.9968, 0.997]
+Average F1 Score: 0.9970
 ROC AUC results: [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
 Average ROC AUC: 1.0000
-Average Training Time per Fold: 49.8384 seconds
-Average Testing Time per Fold: 0.1648 seconds
-Total CO₂ emissions: 0.001176 kg
+Average Training Time per Fold: 128.6341 seconds
+Average Testing Time per Fold: 0.3476 seconds
+Total CO₂ emissions: 0.003029 kg
 
 ========================================================

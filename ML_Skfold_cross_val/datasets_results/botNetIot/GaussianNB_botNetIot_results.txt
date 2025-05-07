@@ -13,8 +13,9 @@ F1 Score results: [0.8894, 0.8895, 0.8885, 0.8896, 0.889, 0.889, 0.8884, 0.8888,
 Average F1 Score: 0.8890
 ROC AUC results: [0.9275, 0.9272, 0.9283, 0.9255, 0.9289, 0.9282, 0.9279, 0.927, 0.9272, 0.927]
 Average ROC AUC: 0.9275
-Average Training Time per Fold: 0.3814 seconds
-Average Testing Time per Fold: 0.0218 seconds
-Total CO₂ emissions: 0.000017 kg
+Average Training Time per Fold: 0.3889 seconds
+Average Testing Time per Fold: 0.0252 seconds
+Total CO₂ emissions: 0.000018 kg
 
 ========================================================
+knn começou as 13.06

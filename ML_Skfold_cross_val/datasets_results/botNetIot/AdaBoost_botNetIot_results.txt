@@ -1,0 +1,20 @@
+
+======== Evaluation Results ========
+Model name: AdaBoost
+Dataset name: botNetIot
+
+Accuracy results: [0.9909, 0.9912, 0.9914, 0.991, 0.9908, 0.9933, 0.9904, 0.991, 0.9935, 0.9934]
+Average Accuracy: 0.9917
+Precision results: [0.9909, 0.9913, 0.9914, 0.9911, 0.9908, 0.9934, 0.9904, 0.991, 0.9936, 0.9934]
+Average Precision: 0.9917
+Recall results: [0.9909, 0.9912, 0.9914, 0.991, 0.9908, 0.9933, 0.9904, 0.991, 0.9935, 0.9934]
+Average Recall: 0.9917
+F1 Score results: [0.9908, 0.9912, 0.9913, 0.9909, 0.9907, 0.9933, 0.9903, 0.9909, 0.9935, 0.9933]
+Average F1 Score: 0.9916
+ROC AUC results: [0.999, 0.9989, 0.9989, 0.9989, 0.9987, 0.9986, 0.9988, 0.9989, 0.999, 0.999]
+Average ROC AUC: 0.9989
+Average Training Time per Fold: 58.9748 seconds
+Average Testing Time per Fold: 0.3221 seconds
+Total CO₂ emissions: 0.001401 kg
+
+========================================================

@@ -3,18 +3,18 @@
 Model name: KNN
 Dataset name: cic_ids_2017
 
-Accuracy results: [0.9981, 0.9981, 0.9979, 0.9978, 0.9979, 0.9978, 0.9981, 0.9984, 0.9979, 0.998]
-Average Accuracy: 0.9980
-Precision results: [0.9981, 0.9981, 0.9979, 0.9978, 0.9979, 0.9978, 0.9981, 0.9984, 0.9979, 0.998]
-Average Precision: 0.9980
-Recall results: [0.9981, 0.9981, 0.9979, 0.9978, 0.9979, 0.9978, 0.9981, 0.9984, 0.9979, 0.998]
-Average Recall: 0.9980
-F1 Score results: [0.998, 0.9981, 0.9979, 0.9978, 0.9979, 0.9978, 0.9981, 0.9984, 0.9979, 0.998]
-Average F1 Score: 0.9980
-ROC AUC results: [0.9996, 0.9995, 0.9995, 0.9995, 0.9995, 0.9996, 0.9997, 0.9995, 0.9992, 0.9993]
-Average ROC AUC: 0.9995
-Average Training Time per Fold: 1.4477 seconds
-Average Testing Time per Fold: 8.1760 seconds
-Total CO₂ emissions: 0.000354 kg
+Accuracy results: [0.9934, 0.993, 0.9931, 0.9932, 0.9937, 0.9934, 0.9933, 0.9934, 0.9936, 0.9935]
+Average Accuracy: 0.9934
+Precision results: [0.9934, 0.993, 0.9931, 0.9932, 0.9937, 0.9934, 0.9933, 0.9934, 0.9936, 0.9935]
+Average Precision: 0.9934
+Recall results: [0.9934, 0.993, 0.9931, 0.9932, 0.9937, 0.9934, 0.9933, 0.9934, 0.9936, 0.9935]
+Average Recall: 0.9934
+F1 Score results: [0.9934, 0.993, 0.9931, 0.9932, 0.9937, 0.9934, 0.9933, 0.9934, 0.9936, 0.9935]
+Average F1 Score: 0.9934
+ROC AUC results: [0.9969, 0.9966, 0.9967, 0.9969, 0.9971, 0.9966, 0.9969, 0.9968, 0.9968, 0.9968]
+Average ROC AUC: 0.9968
+Average Training Time per Fold: 3.1661 seconds
+Average Testing Time per Fold: 21.9351 seconds
+Total CO₂ emissions: 0.000977 kg
 
 ========================================================

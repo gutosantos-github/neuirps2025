@@ -4,12 +4,12 @@ import pandas as pd
 
 accuracy_data = {
     "Dataset": ["MALICIOUS", "NSL-KDD", "UNSW15", "CIC-IDS-2017", "BCCC-CIC-IDS2017", "BOTNETIOT"],
-    "GaussianNB":     [0.7956, 0.8962, 0.8061, 0.9895, 0.7834, 0.7834],
-    "KNN":            [0.9963, 0.9962, 0.8756, 0.9980, 0.9979, 0.9979],
-    "RandomForest":   [0.9967, 0.9930, 0.8889, 0.9989, 0.9979, 0.9980],
-    "AdaBoost":       [0.9919, 0.9765, 0.8576, 0.9895, 0.9865, 0.9865],
-    "LogisticRegression":    [0.9524, 0.9485, 0.8178, 0.9185, 0.9270, 0.9270],
-    "DecisionTree":    [0.9966, 0.9972, 0.9981, 0.7782, 0.9981, 0.9913]
+    "GaussianNB":     [0.7956, 0.8962, 0.8061,0.4436 , 0.7834, 0.9010],
+    "KNN":            [0.9963, 0.9962, 0.8756,0.9934, 0.9979, 0.9985],
+    "RandomForest":   [0.9967, 0.9930, 0.8889,0.9970, 0.9979, 0.9980],
+    "AdaBoost":       [0.9919, 0.9765, 0.8576,0.9708 , 0.9865, 0.9917],
+    "LogisticRegression":    [0.9524,0.9485, 0.8178, 0.6655, 0.9270, 0.9107],
+    "DecisionTree":    [0.9966, 0.9972, 0.9981, 0.9970, 0.9981, 0.9975]
 }
 
 df = pd.DataFrame(accuracy_data)
@@ -47,6 +47,7 @@ ax.legend(loc="upper center", bbox_to_anchor=(0.5, 1.15), ncol=3, fontsize=10)
 ax.grid(axis="y", linestyle="--", linewidth=0.5)
 plt.xticks(rotation=15)
 plt.tight_layout()
+plt.show()
 
 # Save or show
 plt.savefig("accuracy_comparison.png", dpi=300)

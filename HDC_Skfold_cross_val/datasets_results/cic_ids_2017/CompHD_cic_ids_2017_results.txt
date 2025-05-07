@@ -3,20 +3,20 @@
 HDC Model name: CompHD
 Dataset name: cic_ids_2017
 Device: cpu
-Min Value: -11.56, Max Value: 339.89
+Min Value: -1018.56, Max Value: 393.34
 
-Accuracy results: [0.7801, 0.7929, 0.7656, 0.7719, 0.7783, 0.7713, 0.8045, 0.7676, 0.7718, 0.7776]
-Average Accuracy: 0.7782
-Precision results: [0.664, 0.6717, 0.6393, 0.65, 0.6565, 0.648, 0.6741, 0.6472, 0.6505, 0.6541]
-Average Precision: 0.6555
-Recall results: [0.7828, 0.8261, 0.7944, 0.7884, 0.8007, 0.7924, 0.8804, 0.7739, 0.7856, 0.8062]
-Average Recall: 0.8031
-F1 Score results: [0.7185, 0.7409, 0.7085, 0.7125, 0.7214, 0.713, 0.7636, 0.7049, 0.7117, 0.7222]
-Average F1 Score: 0.7217
-ROC AUC results: [0.7807, 0.8002, 0.772, 0.7756, 0.7832, 0.7759, 0.8212, 0.769, 0.7748, 0.7839]
-Average ROC AUC: 0.7836
-Average Training Time per Fold: 22.0922 seconds
-Average Testing Time per Fold: 2.8221 seconds
-Total CO₂ emissions: 0.000372 kg
+Accuracy results: [0.7671, 0.7524, 0.774, 0.7048, 0.7318, 0.7486, 0.8234, 0.735, 0.7865, 0.7623]
+Average Accuracy: 0.7586
+Precision results: [0.6693, 0.6179, 0.6593, 0.5515, 0.5915, 0.6163, 0.7182, 0.5981, 0.6895, 0.6386]
+Average Precision: 0.6350
+Recall results: [0.6281, 0.72, 0.6991, 0.7232, 0.6931, 0.6982, 0.7942, 0.682, 0.6816, 0.6997]
+Average Recall: 0.7019
+F1 Score results: [0.6481, 0.6651, 0.6786, 0.6258, 0.6383, 0.6547, 0.7543, 0.6373, 0.6855, 0.6677]
+Average F1 Score: 0.6655
+ROC AUC results: [0.7336, 0.7446, 0.7559, 0.7092, 0.7225, 0.7365, 0.8163, 0.7222, 0.7613, 0.7472]
+Average ROC AUC: 0.7449
+Average Training Time per Fold: 24.0625 seconds
+Average Testing Time per Fold: 3.2193 seconds
+Total CO₂ emissions: 0.000640 kg
 
 ========================================================

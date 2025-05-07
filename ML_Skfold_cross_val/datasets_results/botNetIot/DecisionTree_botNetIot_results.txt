@@ -1,0 +1,20 @@
+
+======== Evaluation Results ========
+Model name: DecisionTree
+Dataset name: botNetIot
+
+Accuracy results: [0.9978, 0.9975, 0.9974, 0.9975, 0.9974, 0.9973, 0.9975, 0.9975, 0.9975, 0.9975]
+Average Accuracy: 0.9975
+Precision results: [0.9978, 0.9975, 0.9974, 0.9975, 0.9974, 0.9973, 0.9975, 0.9975, 0.9975, 0.9975]
+Average Precision: 0.9975
+Recall results: [0.9978, 0.9975, 0.9974, 0.9975, 0.9974, 0.9973, 0.9975, 0.9975, 0.9975, 0.9975]
+Average Recall: 0.9975
+F1 Score results: [0.9978, 0.9975, 0.9974, 0.9975, 0.9974, 0.9973, 0.9975, 0.9975, 0.9975, 0.9975]
+Average F1 Score: 0.9975
+ROC AUC results: [0.999, 0.9988, 0.9988, 0.9988, 0.9989, 0.9988, 0.9989, 0.9989, 0.999, 0.9989]
+Average ROC AUC: 0.9989
+Average Training Time per Fold: 7.7154 seconds
+Average Testing Time per Fold: 0.0090 seconds
+Total CO₂ emissions: 0.000187 kg
+
+========================================================

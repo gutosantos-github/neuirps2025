@@ -1,0 +1,20 @@
+
+======== Evaluation Results ========
+Model name: LogisticRegression
+Dataset name: botNetIot
+
+Accuracy results: [0.9119, 0.9117, 0.9086, 0.9094, 0.912, 0.9099, 0.9116, 0.9088, 0.9121, 0.9114]
+Average Accuracy: 0.9107
+Precision results: [0.9157, 0.9154, 0.9127, 0.9136, 0.9156, 0.914, 0.9155, 0.9129, 0.9158, 0.9152]
+Average Precision: 0.9146
+Recall results: [0.9119, 0.9117, 0.9086, 0.9094, 0.912, 0.9099, 0.9116, 0.9088, 0.9121, 0.9114]
+Average Recall: 0.9107
+F1 Score results: [0.9043, 0.9041, 0.9003, 0.9011, 0.9044, 0.9018, 0.9039, 0.9005, 0.9045, 0.9037]
+Average F1 Score: 0.9029
+ROC AUC results: [0.8145, 0.8143, 0.8138, 0.8156, 0.8147, 0.8161, 0.814, 0.8133, 0.8134, 0.8139]
+Average ROC AUC: 0.8144
+Average Training Time per Fold: 2.7755 seconds
+Average Testing Time per Fold: 0.0035 seconds
+Total CO₂ emissions: 0.000071 kg
+
+========================================================

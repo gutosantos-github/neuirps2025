@@ -1,0 +1,20 @@
+
+======== Evaluation Results ========
+Model name: KNN
+Dataset name: botNetIot
+
+Accuracy results: [0.9986, 0.9985, 0.9983, 0.9985, 0.9983, 0.9985, 0.9984, 0.9984, 0.9986, 0.9984]
+Average Accuracy: 0.9985
+Precision results: [0.9986, 0.9985, 0.9983, 0.9985, 0.9983, 0.9985, 0.9984, 0.9984, 0.9986, 0.9984]
+Average Precision: 0.9985
+Recall results: [0.9986, 0.9985, 0.9983, 0.9985, 0.9983, 0.9985, 0.9984, 0.9984, 0.9986, 0.9984]
+Average Recall: 0.9985
+F1 Score results: [0.9986, 0.9985, 0.9983, 0.9985, 0.9983, 0.9985, 0.9984, 0.9984, 0.9986, 0.9984]
+Average F1 Score: 0.9985
+ROC AUC results: [0.998, 0.9979, 0.9975, 0.9977, 0.9975, 0.9978, 0.9976, 0.9977, 0.9977, 0.9975]
+Average ROC AUC: 0.9977
+Average Training Time per Fold: 3.8695 seconds
+Average Testing Time per Fold: 1292.5202 seconds
+Total CO₂ emissions: 0.060361 kg
+
+========================================================
