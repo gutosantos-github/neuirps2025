@@ -1,0 +1,6 @@
+Model: BinHD - classes_hv is not a tensor or is None
+Model: AdaptHD - does not have classes_hv attribute
+Model: DistHD - does not have classes_hv attribute
+Model: CompHD - does not have classes_hv attribute
+Model: NeuralHD - does not have classes_hv attribute
+Model: OnlineHD - does not have classes_hv attribute

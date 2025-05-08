@@ -1,0 +1,18 @@
+
+Model: GaussianNB
+Total model size: 0.001269 MB
+
+Model: RandomForest
+Total model size: 2.644596 MB
+
+Model: AdaBoost
+Total model size: 0.027867 MB
+
+Model: LogisticRegression
+Total model size: 0.001057 MB
+
+Model: DecisionTree
+Total model size: 0.026149 MB
+
+Model: KNN
+Total model size: 14.134397 MB

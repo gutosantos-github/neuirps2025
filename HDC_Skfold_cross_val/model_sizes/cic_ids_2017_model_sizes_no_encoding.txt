@@ -1,0 +1,36 @@
+
+Model: BinHD
+  encoder.projection.weight: 0.035156 MB
+  encoder.projection.bias  : 0.003906 MB
+  classes_counter          : 0.001953 MB
+Total model size (no encoding): 0.001953 MB
+
+Model: AdaptHD
+  keys.weight              : 0.035156 MB
+  levels.weight            : 0.390625 MB
+  model.weight             : 0.007812 MB
+Total model size (no encoding): 0.433594 MB
+
+Model: DistHD
+  encoder.weight           : 0.035156 MB
+  model.weight             : 0.007812 MB
+Total model size (no encoding): 0.007812 MB
+
+Model: CompHD
+  feat_keys.weight         : 0.035156 MB
+  levels.weight            : 0.390625 MB
+  model_count.weight       : 0.007812 MB
+  model.weight             : 0.001953 MB
+Total model size (no encoding): 0.435547 MB
+
+Model: NeuralHD
+  encoder.weight           : 0.035156 MB
+  encoder.bias             : 0.003906 MB
+  model.weight             : 0.007812 MB
+Total model size (no encoding): 0.007812 MB
+
+Model: OnlineHD
+  encoder.weight           : 0.035156 MB
+  encoder.bias             : 0.003906 MB
+  model.weight             : 0.007812 MB
+Total model size (no encoding): 0.007812 MB
